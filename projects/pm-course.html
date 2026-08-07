@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Management Course Design | Kshitiz Gupta</title>
+<meta name="description" content="Growth Central VC — hiring 4 domain experts and personally designing and teaching a live Product Management cohort program.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .flow-row{display:flex;gap:0;align-items:stretch;flex-wrap:wrap;}
+  .flow-step{
+    flex:1;min-width:150px;
+    border-radius:6px;padding:16px;color:#fff;position:relative;
+    display:flex;flex-direction:column;gap:6px;
+  }
+  .flow-step .fs-label{font-family:var(--font-mono);font-size:10px;letter-spacing:0.06em;opacity:0.75;}
+  .flow-step .fs-title{font-family:var(--font-display);font-size:15px;font-weight:600;}
+  .flow-step .fs-desc{font-size:11.5px;line-height:1.4;opacity:0.9;}
+  .flow-arrow{
+    display:flex;align-items:center;justify-content:center;
+    width:28px;flex:none;color:var(--slate);font-size:16px;
+  }
+  @media (max-width:700px){
+    .flow-row{flex-direction:column;}
+    .flow-arrow{transform:rotate(90deg);width:auto;height:20px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="../index.html#home"><span class="dot"></span>Kshitiz Gupta</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#resume">Resume</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="proj-hero">
+    <div class="wrap">
+      <a class="back-link" href="../index.html#projects">← All projects</a>
+      <div class="proj-hero-tags">
+        <span>Operations & Product</span>
+        <span>Growth Central VC</span>
+        <span>New Product Line</span>
+      </div>
+      <h1>Product Management Course Design</h1>
+      <p class="one-liner">Hiring four industry experts to build self-paced courses, while personally designing and teaching a live, cohort-based Product Management program from scratch.</p>
+      <div class="proj-hero-meta">
+        <div><span class="m-label">Role</span><span class="m-val">Owned course layout, operations & tech platform</span></div>
+        <div><span class="m-label">Timeline</span><span class="m-val">Planning Nov, 4 courses live by Jan, PM course live Feb</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-block">
+            <h3>Context</h3>
+            <p>As part of overseeing Growth Central VC's product lines, I was tasked with building and launching a new education product from the ground up — bringing in outside domain expertise while also creating a flagship course of my own.</p>
+          </div>
+          <div class="detail-block">
+            <h3>The 4 Expert-Led Courses</h3>
+            <p>I hired 4 experts with 10+ years of experience each, across Finance, Marketing, Computer Science, and Cyber Security. Each authored their own curriculum and recorded their own video content, structured as self-paced 2-month courses with a weekly live doubt-clearing class to keep engagement high. Post-course internship placement support was built in as a core benefit, not an afterthought.</p>
+          </div>
+        </div>
+        <div>
+          <div class="detail-block">
+            <h3>The PM Course (Self-Designed)</h3>
+            <p>While the 4 expert courses were being built, I designed and taught a fundamentally different kind of course myself — live-only, cohort-based, and built around a hands-on internship rather than recorded content. Teaching thesis: anyone can manage a team or a product — what makes a Product Manager specifically is understanding the product at its core and driving its improvement, whether judged from the company's perspective or the customer's.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>8-Week Curriculum Map</h3>
+        <div class="visual-card">
+          <div class="flow-row">
+            <div class="flow-step" style="background:var(--navy-900);">
+              <span class="fs-label">WEEKS 1–2</span>
+              <span class="fs-title">Theory Foundations</span>
+              <span class="fs-desc">Core management concepts and types.</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step" style="background:#2F7A4F;flex:1.6;">
+              <span class="fs-label">WEEKS 2–7</span>
+              <span class="fs-title">Live Management Internship</span>
+              <span class="fs-desc">Mentees work as management interns, leading a real team for 6 weeks. Weekly assignments run alongside (Weeks 3–7).</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step" style="background:var(--navy-700);">
+              <span class="fs-label">WEEKS 7–8</span>
+              <span class="fs-title">Theory + Exams</span>
+              <span class="fs-desc">Consolidation and assessment.</span>
+            </div>
+          </div>
+          <p class="visual-caption">Cohort of 10 handpicked mentees, every 3 months — a 2-month course plus a 1-month break to refine materials and select the next cohort.</p>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Course Line Overview</h3>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead><tr><th>Course</th><th>Format</th><th>Duration</th><th>Cohort</th></tr></thead>
+            <tbody>
+              <tr><td>Finance</td><td>Self-paced + weekly live doubt class</td><td>2 months</td><td>Open enrollment</td></tr>
+              <tr><td>Marketing</td><td>Self-paced + weekly live doubt class</td><td>2 months</td><td>Open enrollment</td></tr>
+              <tr><td>Computer Science</td><td>Self-paced + weekly live doubt class</td><td>2 months</td><td>Open enrollment</td></tr>
+              <tr><td>Cyber Security</td><td>Self-paced + weekly live doubt class</td><td>2 months</td><td>Open enrollment</td></tr>
+              <tr><td><strong>Product Management</strong></td><td>Live-only, daily classes</td><td>2 months + 1 month break</td><td>10 mentees, every 3 months</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Result / Impact</h3>
+        <div class="stat-grid">
+          <div class="stat-tile">
+            <div class="num">₹3,00,000</div>
+            <div class="lbl">Combined Q1 revenue — ₹2,50,000 from the 4 expert courses (Jan), ₹50,000 from the PM course's first cohort (Feb)</div>
+          </div>
+          <div class="stat-tile">
+            <div class="num">85%</div>
+            <div class="lbl">Completion rate across the 4 expert-led courses</div>
+          </div>
+          <div class="stat-tile">
+            <div class="num">100+</div>
+            <div class="lbl">Enrolment grew from 60+ students in the first 3 months to 100+ in the next 3</div>
+          </div>
+          <div class="stat-tile">
+            <div class="num">30 mentees</div>
+            <div class="lbl">Across 3 PM cohorts, before I handed the course off to focus on other projects</div>
+          </div>
+        </div>
+        <p class="visual-caption" style="margin-top:16px;">40% of eligible completers took up the internship placement opportunity — notable given the timing fell in the academic off-season, when most students were back in college. Mentee feedback consistently pointed to impact beyond the curriculum; most mentees had career breaks before the course and went on to land jobs or enrol in MBA programs afterward.</p>
+      </div>
+
+      <div class="cta-row">
+        <a class="deck-link" href="https://drive.google.com/drive/folders/15ItsVQvv72Q8pxY_UCPCky_MAtwJQxsA" target="_blank" rel="noopener">View course line overview & sample curriculum ↗</a>
+        <span class="next-project">Next: <a href="time-motion-study.html">Time and Motion Study →</a></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;width:100%;">
+    <p>© 2026 Kshitiz Gupta</p>
+    <p>Delhi NCR, India</p>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

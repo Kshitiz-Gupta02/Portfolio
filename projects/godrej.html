@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Godrej Consumer Products — Financial Analysis | Kshitiz Gupta</title>
+<meta name="description" content="A 10-year review of Godrej Consumer Products' standalone financials, with DuPont decomposition of ROE and a 2-year forecast.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="../index.html#home"><span class="dot"></span>Kshitiz Gupta</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#resume">Resume</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="proj-hero">
+    <div class="wrap">
+      <a class="back-link" href="../index.html#projects">← All projects</a>
+      <div class="proj-hero-tags">
+        <span>Strategy & Consulting</span>
+        <span>FAC105 · Financial Accounting</span>
+        <span>Course Project</span>
+      </div>
+      <h1>Godrej Consumer Products — Financial Analysis</h1>
+      <p class="one-liner">Eleven years of standalone financial statements, pulled apart with ratio analysis and a 3-step DuPont decomposition, to find out what was really driving GCPL's Return on Equity.</p>
+      <div class="proj-hero-meta">
+        <div><span class="m-label">Period Covered</span><span class="m-val">FY2012 – FY2022</span></div>
+        <div><span class="m-label">Method</span><span class="m-val">Horizontal, vertical & DuPont analysis</span></div>
+        <div><span class="m-label">Output</span><span class="m-val">Written report + Excel model</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-block">
+            <h3>Why This Company</h3>
+            <p>A single year's balance sheet rarely tells you if a company is structurally healthy. GCPL was chosen because it's a well-known Indian FMCG name — Godrej No.1, Cinthol, HIT, Good Knight — and one that grew fairly steadily over the decade without taking on much debt, making it a good case for studying growth funded by retained profits rather than borrowing. Return on Equity was chosen as the central metric because it's decomposable: it lets you go beyond "ROE went up" to actually explain why.</p>
+          </div>
+          <div class="detail-block">
+            <h3>Method</h3>
+            <p>I ran horizontal (year-on-year) and vertical (common-size) analysis on GCPL's standalone Income Statement and Balance Sheet, computed the full set of profitability, return, solvency, liquidity, and efficiency ratios for all 11 years, and then broke Return on Equity into its three DuPont drivers: Net Profit Margin, Total Asset Turnover, and Equity Multiplier. All ratios use year-end (closing) balances rather than period averages — a standard simplification at the introductory level.</p>
+          </div>
+        </div>
+        <div>
+          <div class="detail-block">
+            <h3>What the Numbers Showed</h3>
+            <p>Revenue grew from ₹3,043 Cr to ₹7,021 Cr over the decade (8.7% CAGR); PAT grew slightly faster at 9.4%. Gross margins expanded through the middle years, peaking near 65% in FY2018, before rising input costs pulled them back to 56.4% by FY2022 — the clearest margin headwind in the data. The one outlier year is FY2019, where a one-off ₹282 Cr tax credit (linked to India's corporate tax rate cut) inflated PAT, EPS, and ROE — I flagged it everywhere it would otherwise distort a trend.</p>
+          </div>
+          <div class="detail-block">
+            <h3>Forecast</h3>
+            <p>I built a simple 2-year trend-based forecast (FY2023E–FY2024E) in the accompanying Excel model, using three editable assumptions: 6.4% revenue growth (GCPL's own 5-year CAGR), a 20.5% net margin (averaging the last three years to smooth the FY2019 spike), and a 35% dividend payout ratio. Forecast ROE comes out to 19.5% (FY2023E) and 18.5% (FY2024E) — both consistent with GCPL's typical historical range once FY2019 is excluded.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Return on Equity, FY2012–FY2022</h3>
+        <div class="visual-card">
+          <svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Godrej Consumer Products Return on Equity, FY2012 to FY2022">
+            <g stroke="#E2E5EA" stroke-width="1">
+              <line x1="60" y1="30" x2="600" y2="30"/>
+              <line x1="60" y1="80" x2="600" y2="80"/>
+              <line x1="60" y1="130" x2="600" y2="130"/>
+              <line x1="60" y1="180" x2="600" y2="180"/>
+              <line x1="60" y1="230" x2="600" y2="230"/>
+            </g>
+            <g font-family="IBM Plex Mono, monospace" font-size="10" fill="#5B6472">
+              <text x="30" y="34">40%</text>
+              <text x="30" y="84">30%</text>
+              <text x="30" y="134">20%</text>
+              <text x="30" y="184">10%</text>
+              <text x="30" y="234">0%</text>
+            </g>
+            <polyline points="60,110.25 114,137.5 168,136.6 222,133.3 276,135.5 330,133.1 384,122.3 438,51.85 492,114.95 546,133.75 600,135.8"
+              fill="none" stroke="#0A1E3D" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+            <g fill="#0A1E3D">
+              <circle cx="60" cy="110.25" r="3.5"/><circle cx="114" cy="137.5" r="3.5"/><circle cx="168" cy="136.6" r="3.5"/>
+              <circle cx="222" cy="133.3" r="3.5"/><circle cx="276" cy="135.5" r="3.5"/><circle cx="330" cy="133.1" r="3.5"/>
+              <circle cx="384" cy="122.3" r="3.5"/><circle cx="492" cy="114.95" r="3.5"/><circle cx="546" cy="133.75" r="3.5"/><circle cx="600" cy="135.8" r="3.5"/>
+            </g>
+            <circle cx="438" cy="51.85" r="5" fill="#fff" stroke="#B4884A" stroke-width="2.5"/>
+            <text x="438" y="40" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#B4884A">35.6% — one-off tax credit</text>
+            <g font-family="IBM Plex Mono, monospace" font-size="10" fill="#5B6472" text-anchor="middle">
+              <text x="60" y="248">FY12</text><text x="168" y="248">FY14</text><text x="276" y="248">FY16</text>
+              <text x="384" y="248">FY18</text><text x="438" y="248">FY19</text><text x="492" y="248">FY20</text><text x="600" y="248">FY22</text>
+            </g>
+          </svg>
+          <p class="visual-caption">Excluding the FY2019 outlier, ROE holds in an 18.5–24% band for all eleven years — a strikingly consistent return once the one-off tax credit is stripped out.</p>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>DuPont Decomposition (3-Step)</h3>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead><tr><th>Component</th><th>FY2012</th><th>FY2016</th><th>FY2019*</th><th>FY2022</th></tr></thead>
+            <tbody>
+              <tr><td>Net Profit Margin</td><td>19.9%</td><td>14.6%</td><td>30.4%</td><td>21.1%</td></tr>
+              <tr><td>Total Asset Turnover</td><td>0.85x</td><td>0.98x</td><td>0.87x</td><td>0.79x</td></tr>
+              <tr><td>Equity Multiplier</td><td>1.42x</td><td>1.31x</td><td>1.35x</td><td>1.13x</td></tr>
+              <tr><td><strong>ROE (DuPont product)</strong></td><td><strong>23.9%</strong></td><td><strong>18.9%</strong></td><td><strong>35.6%</strong></td><td><strong>18.8%</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="visual-caption" style="margin-top:14px;">*FY2019 inflated by a one-off tax credit — treat as an outlier, not a trend. The Equity Multiplier falling from 1.42x to 1.13x is the clearest quantitative sign of GCPL steadily de-leveraging and funding growth from retained profits rather than debt — confirmed by a Debt-to-Equity ratio of effectively 0.00x since FY2014.</p>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Key Findings</h3>
+        <p>Revenue and PAT grew at a healthy, closely matched pace over the decade. GCPL has been virtually debt-free on its standalone balance sheet since FY2014, and the DuPont analysis confirms its ROE is now driven almost entirely by operating performance and equity growth, not financial leverage. The main challenge visible in the numbers is margin pressure from rising input costs over the last two years of the study period — worth watching going forward, though the 2-year forecast suggests stable performance continuing in the near term absent a major shock.</p>
+      </div>
+
+      <div class="cta-row">
+        <a class="deck-link" href="https://drive.google.com/drive/folders/1-_HfoAcBc3YtDqia0iVg3oyggPED12UL" target="_blank" rel="noopener">View full report & Excel model ↗</a>
+        <span class="next-project">Next: <a href="market-research.html">Competitor Landscape — 214 Platforms →</a></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;width:100%;">
+    <p>© 2026 Kshitiz Gupta</p>
+    <p>Delhi NCR, India</p>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

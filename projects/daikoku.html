@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daikoku — Trust-First Hiring Marketplace | Kshitiz Gupta</title>
+<meta name="description" content="Co-founding Daikoku, a two-sided student-startup marketplace incubated at Shiv Nadar University's Atal Incubation Centre.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .swipe-mock{
+    max-width:300px;
+    margin:0 auto;
+    border:1.5px solid var(--navy-900);
+    border-radius:20px;
+    padding:18px;
+    background:#fff;
+  }
+  .swipe-mock .sm-label{
+    font-family:var(--font-mono);
+    font-size:10px;
+    letter-spacing:0.1em;
+    color:var(--slate);
+    margin-bottom:12px;
+  }
+  .swipe-mock .sm-card{
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:16px;
+    background:var(--paper-mute);
+  }
+  .swipe-mock .sm-top{display:flex;align-items:center;gap:10px;}
+  .swipe-mock .sm-avatar{
+    width:40px;height:40px;border-radius:50%;
+    background:var(--navy-900);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--font-mono);font-size:13px;font-weight:600;
+    flex:none;
+  }
+  .swipe-mock .sm-name{font-family:var(--font-display);font-size:15px;color:var(--navy-900);}
+  .swipe-mock .sm-sub{font-size:11.5px;color:var(--slate);margin-top:1px;}
+  .swipe-mock .sm-tags{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0;}
+  .swipe-mock .sm-tag{
+    font-family:var(--font-mono);font-size:10px;
+    border:1px solid var(--line);border-radius:3px;
+    padding:3px 7px;color:var(--navy-500);background:#fff;
+  }
+  .swipe-mock .sm-desc{font-size:12px;color:var(--ink);line-height:1.5;}
+  .swipe-mock .sm-verified{
+    margin-top:10px;font-family:var(--font-mono);font-size:11px;
+    color:var(--good);display:flex;align-items:center;gap:5px;
+  }
+  .swipe-mock .sm-actions{
+    display:flex;justify-content:center;gap:18px;margin-top:18px;
+  }
+  .swipe-mock .sm-btn{
+    width:44px;height:44px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-size:18px;border:1.5px solid var(--line);
+  }
+  .swipe-mock .sm-btn.no{color:#B4453D;border-color:#F0D4D1;}
+  .swipe-mock .sm-btn.yes{color:var(--good);border-color:#D2E6D9;}
+  .swipe-mock .sm-hint{
+    text-align:center;margin-top:10px;font-size:10.5px;
+    color:var(--slate);font-style:italic;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="../index.html#home"><span class="dot"></span>Kshitiz Gupta</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#resume">Resume</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="proj-hero">
+    <div class="wrap">
+      <a class="back-link" href="../index.html#projects">← All projects</a>
+      <div class="proj-hero-tags">
+        <span>Strategy & Consulting</span>
+        <span>Co-Founder</span>
+        <span>SNU Atal Incubation Centre</span>
+      </div>
+      <h1>Daikoku — Trust-First Hiring Marketplace</h1>
+      <p class="one-liner">Co-founding a two-sided marketplace connecting undergraduate students with real project experience to early-stage startups needing fast, verified talent — from idea to incubated prototype in six months.</p>
+      <div class="proj-hero-meta">
+        <div><span class="m-label">Role</span><span class="m-val">Co-Founder — Operations, Strategy & Marketing Lead</span></div>
+        <div><span class="m-label">Timeline</span><span class="m-val">June – December 2022</span></div>
+        <div><span class="m-label">Team</span><span class="m-val">4 co-founders</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-block">
+            <h3>The Problem</h3>
+            <p><strong>Student side:</strong> college curricula stayed largely theoretical, placement cells in Tier-2/3 colleges were slow and unresponsive, and mainstream job portals were flooded with unverified or unpaid internship postings.</p>
+            <p><strong>Startup side:</strong> over 75% of hires happened through personal references because founders didn't trust standard job boards, and early-stage teams had no affordable way to validate ideas or access scaling tools.</p>
+          </div>
+          <div class="detail-block">
+            <h3>What We Built</h3>
+            <p>A student-facing portal with Google/GitHub sign-on, project listings, an embedded workspace, and gamified rewards ("Geek Bucks") tied to verified project completion. A "Swipe Mode" hiring interface letting startup HRs filter and message pre-evaluated candidates directly, backed by SME project ratings and employer verification. Plus a tiered SaaS toolkit for startups — HRM, task tracking, market research, community validation — alongside transactional services like 7-day MVP builds and idea-validation reports.</p>
+          </div>
+        </div>
+        <div>
+          <div class="detail-block">
+            <h3>My Role</h3>
+            <p>As Operations, Strategy & Marketing Lead, I owned scope definition, team coordination, and delivery timelines across the founding team, from initial ideation through to a working prototype and incubation.</p>
+            <p>I ran the B2B outbound motion — outreach, positioning, and follow-up across 21 target startups. I coordinated cross-functional delivery between web development, XR/Unity, and operations workstreams to keep the prototype on schedule, led the incubation application and onboarding at SNU's Atal Incubation Centre, and defined the go-to-market and roadmap sequencing — student portal launch, B2B outreach, community build, then admin/XR rollout.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>The Product — Swipe Mode</h3>
+        <div class="visual-card">
+          <div class="swipe-mock">
+            <div class="sm-label">SWIPE MODE</div>
+            <div class="sm-card">
+              <div class="sm-top">
+                <div class="sm-avatar">AK</div>
+                <div>
+                  <div class="sm-name">Aditi Kapoor</div>
+                  <div class="sm-sub">B.Tech CSE · 3rd Year</div>
+                </div>
+              </div>
+              <div class="sm-tags">
+                <span class="sm-tag">React</span>
+                <span class="sm-tag">Product Design</span>
+                <span class="sm-tag">SME 4.8★</span>
+              </div>
+              <div class="sm-desc">Completed: E-commerce checkout redesign for early-stage D2C startup. Rated 4.8/5 by founder.</div>
+              <div class="sm-verified">✓ Verified project</div>
+            </div>
+            <div class="sm-actions">
+              <div class="sm-btn no">✕</div>
+              <div class="sm-btn yes">✓</div>
+            </div>
+            <div class="sm-hint">Swipe right to instantly message a candidate</div>
+          </div>
+          <p class="visual-caption">HRs swiped through pre-evaluated candidates filtered by project performance tags. Every profile carried SME project ratings and verified employer reviews, replacing manual resume downloads and reference-only hiring.</p>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Traction, June–December 2022</h3>
+        <div class="stat-grid" style="grid-template-columns:repeat(3,1fr);">
+          <div class="stat-tile">
+            <div class="num">21</div>
+            <div class="lbl">Startups contacted through the B2B outbound motion I ran</div>
+          </div>
+          <div class="stat-tile">
+            <div class="num">13</div>
+            <div class="lbl">Converted to scheduled meetings — a 62% response rate</div>
+          </div>
+          <div class="stat-tile">
+            <div class="num">₹23,000</div>
+            <div class="lbl">Early revenue, from a website-development engagement with one outreach target</div>
+          </div>
+        </div>
+        <p class="visual-caption" style="margin-top:16px;">Warm/scheduled conversations included GoodSpace, IFORTIS Worldwide, Swago, and SIDALCEAS EduTech, among others. Financial books were not formally closed out after the team's exit and are treated here as directional rather than final.</p>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Outcome</h3>
+        <p>I stepped away from the team in December 2022 after roughly six months of building — from ideation through incubation to a working prototype and first paid engagement. The rest of the founding team continued for a few more months before the venture wound down. Daikoku remains a formative example of taking a 0-to-1 concept through incubation-stage validation: defining scope, coordinating a small cross-functional team, and running B2B outreach under real deadline pressure.</p>
+      </div>
+
+      <div class="cta-row">
+        <a class="deck-link" href="https://drive.google.com/drive/folders/18bxVORw4bbdf9egULvmRO9jpvWs-sm2a" target="_blank" rel="noopener">View pitch deck & case study ↗</a>
+        <span class="next-project">Next: <a href="ambulance-routing.html">Ambulance Routing via Graph Theory →</a></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;width:100%;">
+    <p>© 2026 Kshitiz Gupta</p>
+    <p>Delhi NCR, India</p>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

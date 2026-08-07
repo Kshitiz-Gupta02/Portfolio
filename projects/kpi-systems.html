@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KPI Systems — Three Iterations | Kshitiz Gupta</title>
+<meta name="description" content="Growth Central VC — rebuilding a company-wide performance management system through three iterations over 23 months.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .flow-row{display:flex;gap:0;align-items:stretch;flex-wrap:wrap;}
+  .flow-step{
+    flex:1;min-width:150px;
+    border-radius:6px;padding:16px;color:#fff;position:relative;
+    display:flex;flex-direction:column;gap:6px;
+  }
+  .flow-step .fs-label{font-family:var(--font-mono);font-size:10px;letter-spacing:0.06em;opacity:0.75;}
+  .flow-step .fs-title{font-family:var(--font-display);font-size:15px;font-weight:600;}
+  .flow-step .fs-desc{font-size:11.5px;line-height:1.4;opacity:0.9;}
+  .flow-arrow{
+    display:flex;align-items:center;justify-content:center;
+    width:28px;flex:none;color:var(--slate);font-size:16px;
+  }
+  .flow-note{
+    margin-top:10px;font-family:var(--font-mono);font-size:10.5px;line-height:1.4;
+  }
+  @media (max-width:700px){
+    .flow-row{flex-direction:column;}
+    .flow-arrow{transform:rotate(90deg);width:auto;height:20px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="../index.html#home"><span class="dot"></span>Kshitiz Gupta</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#resume">Resume</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="proj-hero">
+    <div class="wrap">
+      <a class="back-link" href="../index.html#projects">← All projects</a>
+      <div class="proj-hero-tags">
+        <span>Operations & Product</span>
+        <span>Growth Central VC</span>
+        <span>23-Month Redesign</span>
+      </div>
+      <h1>KPI Systems — Three Iterations</h1>
+      <p class="one-liner">Noticing that performance was measured purely by task count, and rebuilding the model three times until it actually balanced sourcing effort, hiring quality, and team morale.</p>
+      <div class="proj-hero-meta">
+        <div><span class="m-label">Role</span><span class="m-val">Self-initiated, later approved company-wide</span></div>
+        <div><span class="m-label">Scope</span><span class="m-val">1 company-wide model + 3 HR-specific iterations</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-block">
+            <h3>Context</h3>
+            <p>When I started as a Core Team Member, performance was tracked by counting what tasks a person did and how many times — a proxy that said nothing about the effort behind the work or the impact it created. I began remodelling performance management as a side project to fix that.</p>
+          </div>
+          <div class="detail-block">
+            <h3>My Role</h3>
+            <p>I designed and built every version of the model myself. I pitched the first version to the founder, who approved it for company-wide use, and owned every iteration afterward — including diagnosing why each version eventually broke, and helping every team adopt the next one.</p>
+          </div>
+        </div>
+        <div>
+          <div class="detail-block">
+            <h3>Design Philosophy</h3>
+            <p>Two principles guided every version: start from what actually needs to improve, then design the KPI around it — not the other way around. And a number can never fully capture human effort, feeling, or luck; I tried to build that acknowledgement into the model itself, and say it out loud when presenting it to the team.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Model Evolution</h3>
+        <div class="visual-card">
+          <div class="flow-row">
+            <div class="flow-step" style="background:var(--navy-900);">
+              <span class="fs-label">V1</span>
+              <span class="fs-title">Company-Wide</span>
+              <span class="fs-desc">Employee Satisfaction Survey Score, Organisation Health — moved every team beyond raw task counts.</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step" style="background:var(--navy-700);">
+              <span class="fs-label">V1 — HR</span>
+              <span class="fs-title">HR-Specific</span>
+              <span class="fs-desc">Time to Hire, Absenteeism Rate, Attrition Rate — a basic functional layer for HR alone.</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step" style="background:var(--navy-500);">
+              <span class="fs-label">V2</span>
+              <span class="fs-title">HR Ratio Model</span>
+              <span class="fs-desc">Recruiting & Interview Productivity — pushed quality of hire over volume.</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step" style="background:#B4884A;">
+              <span class="fs-label">V3</span>
+              <span class="fs-title">Gamified Model</span>
+              <span class="fs-desc">One weighted score balancing sourcing effort, shortlisting discipline, and interview outcomes.</span>
+            </div>
+          </div>
+          <p class="visual-caption">Each iteration was a direct response to a real failure mode observed on the ground, not a theoretical redesign.</p>
+        </div>
+      </div>
+
+      <div class="detail-grid" style="margin-top:56px;">
+        <div class="detail-block">
+          <h3>V2 — What Broke</h3>
+          <p>V2 introduced Recruiting Productivity (RP = candidates passed ÷ shortlisted) and Interview Productivity (IP = interns retained ÷ candidates passed), with goals of RP ≥ 50% and IP ≥ 60%. It backfired: interns became so focused on quality that they started arguing over candidates before even interviewing them, and the model gave no credit for the effort put into sourcing in the first place.</p>
+        </div>
+        <div class="detail-block">
+          <h3>V3 — The Fix</h3>
+          <p>V3 rebuilt scoring as a single weighted formula that rewarded sourcing effort and interview outcomes together, while capping shortlists to keep screening disciplined. Interns no longer had to choose between chasing volume or defending quality — both were already priced into one number.</p>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:16px;">
+        <h3>V3 Scoring Formula</h3>
+        <div class="formula-box">Total Score = 5A + 2B − 6C + 10D − 4E</div>
+        <div class="table-wrap" style="margin-top:20px;">
+          <table class="data-table">
+            <thead><tr><th>Code</th><th>Definition</th><th>Weight</th></tr></thead>
+            <tbody>
+              <tr><td>A</td><td>Job Ad Links Posted (sourcing)</td><td>+5 pts each</td></tr>
+              <tr><td>B</td><td>Applicants on Those Job Ads</td><td>+2 pts each</td></tr>
+              <tr><td>C</td><td>Shortlists Made (min 20, max 60)</td><td>−6 pts each</td></tr>
+              <tr><td>D</td><td>Candidates Passed Interview</td><td>+10 pts each</td></tr>
+              <tr><td>E</td><td>Candidates Not Selected (C − D)</td><td>−4 pts each</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="visual-caption" style="margin-top:14px;">Worked example: a full team of 20 HR interns (5 sub-teams of 4) posting 56 job ads, sourcing 281 applicants, making 60 shortlists, and passing 20 candidates scored 522 — landing in the "Good" band. Score bands: below 330 = Poor, 330–519 = Developing, 520–649 = Good, 650+ = Excellent.</p>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Outcome</h3>
+        <p>The V1 model was adopted company-wide across every department under my oversight. The HR model was iterated three times, each version built in direct response to a real failure mode observed on the ground. The V3 gamified model was easier to understand and adopted enthusiastically — interns reported lower stress and began looking forward to their weekly scores rather than dreading them. Rolled out across 5 teams, it drove a 60% productivity increase, a 40% drop in absenteeism, a 30% cut in time-to-hire, and lifted employee retention from 10% to 40%.</p>
+      </div>
+
+      <div class="cta-row">
+        <a class="deck-link" href="https://drive.google.com/drive/folders/1E0fjcqQyj1njvmEVz1gaQTCQxVTi6KXG" target="_blank" rel="noopener">View dashboard mock-up & model detail ↗</a>
+        <span class="next-project">Next: <a href="pm-course.html">Product Management Course Design →</a></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;width:100%;">
+    <p>© 2026 Kshitiz Gupta</p>
+    <p>Delhi NCR, India</p>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

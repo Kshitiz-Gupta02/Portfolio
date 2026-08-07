@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ambulance Routing via Graph Theory | Kshitiz Gupta</title>
+<meta name="description" content="An Operations Research project applying Dijkstra's algorithm and bipartite matching to minimise ambulance response times.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="../index.html#home"><span class="dot"></span>Kshitiz Gupta</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#resume">Resume</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="proj-hero">
+    <div class="wrap">
+      <a class="back-link" href="../index.html#projects">← All projects</a>
+      <div class="proj-hero-tags">
+        <span>Operations & Product</span>
+        <span>DOM208 · Operations Research</span>
+        <span>Course Project</span>
+      </div>
+      <h1>Ambulance Routing via Graph Theory</h1>
+      <p class="one-liner">Modelling a city's road network as a weighted directed graph, and using Dijkstra's algorithm to minimise ambulance response time in the emergency "golden hour."</p>
+      <div class="proj-hero-meta">
+        <div><span class="m-label">Course</span><span class="m-val">DOM208 — Operations Research</span></div>
+        <div><span class="m-label">Tools</span><span class="m-val">Dijkstra's Algorithm, Bipartite Matching</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-block">
+            <h3>Problem</h3>
+            <p>In emergency medical services, the first hour after a critical incident — the "golden hour" — is often the difference between life and death, and a meaningful chunk of it is consumed simply by ambulance travel. Most real-world dispatch still leans on driver intuition rather than mathematical routing. This project treats ambulance dispatch as an Operations Research problem and solves it with Graph Theory.</p>
+          </div>
+          <div class="detail-block">
+            <h3>Model Design</h3>
+            <p>The road network is represented as a weighted, directed graph — junctions and locations as nodes, travel time in minutes as edge weight. It's directed because some roads (especially near hospitals) are one-way, so the fastest path from H to a patient isn't always the same road in reverse. The objective function minimises total response time T(Pk) = d(H, Pk) + t_load + d(Pk, H) for every patient Pk.</p>
+          </div>
+        </div>
+        <div>
+          <div class="detail-block">
+            <h3>Algorithms Used</h3>
+            <p><strong>Dijkstra's Algorithm</strong> finds the minimum-weight path between the hospital and a patient node — run twice per trip, once onward and once for the return leg, since one-way roads mean the fastest path isn't always symmetric.</p>
+            <p><strong>Bipartite Matching</strong> extends the model to multiple simultaneous calls: ambulances on one side, patients on the other, with edge weight equal to the response time if that ambulance is sent to that patient. A minimum-weight matching keeps the combined response time low across all calls, not just one at a time.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Sample Network</h3>
+        <div class="visual-card">
+          <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ambulance routing graph network with hospital, junction, and patient nodes">
+            <g stroke="#7C93B8" stroke-width="1.6">
+              <line x1="300" y1="220" x2="430" y2="120"/>
+              <line x1="300" y1="220" x2="170" y2="120"/>
+              <line x1="430" y1="120" x2="170" y2="120"/>
+              <line x1="430" y1="120" x2="480" y2="30"/>
+              <line x1="430" y1="120" x2="520" y2="220"/>
+              <line x1="170" y1="120" x2="520" y2="220"/>
+              <line x1="170" y1="120" x2="150" y2="300"/>
+            </g>
+            <g font-family="IBM Plex Mono, monospace" font-size="11" fill="#0A1E3D">
+              <rect x="352" y="158" width="24" height="16" fill="#fff"/><text x="355" y="170">4</text>
+              <rect x="222" y="158" width="24" height="16" fill="#fff"/><text x="225" y="170">6</text>
+              <rect x="288" y="112" width="24" height="16" fill="#fff"/><text x="291" y="124">3</text>
+              <rect x="443" y="67" width="24" height="16" fill="#fff"/><text x="446" y="79">3</text>
+              <rect x="463" y="162" width="24" height="16" fill="#fff"/><text x="466" y="174">5</text>
+              <rect x="263" y="142" width="24" height="16" fill="#fff"/><text x="266" y="154">4</text>
+              <rect x="148" y="202" width="24" height="16" fill="#fff"/><text x="151" y="214">3</text>
+            </g>
+            <g>
+              <circle cx="300" cy="220" r="24" fill="#0A1E3D"/>
+              <text x="300" y="226" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#fff">H</text>
+
+              <circle cx="430" cy="120" r="20" fill="#2C4B7C"/>
+              <text x="430" y="125" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#fff">J1</text>
+
+              <circle cx="170" cy="120" r="20" fill="#2C4B7C"/>
+              <text x="170" y="125" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#fff">J2</text>
+
+              <circle cx="480" cy="30" r="18" fill="#B4884A"/>
+              <text x="480" y="35" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#fff">P1</text>
+
+              <circle cx="520" cy="220" r="18" fill="#B4884A"/>
+              <text x="520" y="225" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#fff">P2</text>
+
+              <circle cx="150" cy="300" r="18" fill="#B4884A"/>
+              <text x="150" y="305" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#fff">P3</text>
+            </g>
+          </svg>
+          <p class="visual-caption">H = hospital base station, J1/J2 = road junctions, P1–P3 = patient call locations. Edge weights are travel time in minutes. For a call from P2, Dijkstra's algorithm compares H→J1→P2 (4+5=9 min) against H→J2→P2 (6+4=10 min) and picks the faster route.</p>
+        </div>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Before vs. After Optimisation</h3>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead><tr><th>KPI</th><th>Habitual Route</th><th>Optimised Route</th><th>Improvement</th></tr></thead>
+            <tbody>
+              <tr><td>Onward Trip (H → P2)</td><td>10 min</td><td>9 min</td><td>1 min saved</td></tr>
+              <tr><td>Return Trip (P2 → H)</td><td>10 min</td><td>9 min</td><td>1 min saved</td></tr>
+              <tr><td><strong>Total Round Trip</strong></td><td><strong>20 min</strong></td><td><strong>18 min</strong></td><td><strong>10% faster</strong></td></tr>
+              <tr><td>Distance Efficiency Ratio</td><td>0.90</td><td>1.00</td><td>Fully optimal</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="visual-caption" style="margin-top:14px;">Before this model, the habitual route ran via J2 out of driver familiarity rather than actual speed. This looks small for one trip, but scaled across a full day of emergency calls, the cumulative time saved becomes significant — and in emergency medicine, every minute matters.</p>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>KPI Framework</h3>
+        <p>Since the goal was a performance management model, not just a routing exercise, I proposed 8 KPIs for continuous tracking: Average Response Time, Average Turnaround Time, Ambulance Utilisation Rate, Coverage Efficiency, Idle Time per Ambulance, Distance Efficiency Ratio, Patient Waiting Time, and Cost per Trip — giving a hospital control room a way to monitor whether the model keeps improving performance once adopted, not just a one-time calculation.</p>
+      </div>
+
+      <div class="detail-block" style="margin-top:56px;">
+        <h3>Limitations</h3>
+        <p>The model assumes static travel time (no real-time traffic), fixed node positions (patient locations only known once a call comes in), and doesn't account for ambulance breakdown or unavailability. Future scope includes live GPS/traffic integration, dynamic graph updates for road closures, and extending to a multi-hospital, multi-ambulance network.</p>
+      </div>
+
+      <div class="cta-row">
+        <a class="deck-link" href="https://drive.google.com/drive/folders/1-_HfoAcBc3YtDqia0iVg3oyggPED12UL" target="_blank" rel="noopener">View full report ↗</a>
+        <span class="next-project">Next: <a href="kpi-systems.html">KPI Systems — Three Iterations →</a></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;width:100%;">
+    <p>© 2026 Kshitiz Gupta</p>
+    <p>Delhi NCR, India</p>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
