@@ -1,0 +1,33 @@
+# Kshitiz Gupta
+
+> Portfolio of Kshitiz Gupta, an early-career professional based in Delhi NCR, India, targeting Associate Business Consultant, Business Analyst, Operations Analyst, and Strategy & Operations roles. Background spans startup operations, AML compliance operations, retail management, and startup co-founding. Skills include KPI design, process optimization, financial analysis, market research, and data-driven decision-making.
+
+This site documents ten case studies across strategy consulting and operations/product work, each with the original problem, approach, and measurable outcome.
+
+## Key Pages
+
+- [Home](https://kshitiz-gupta02.github.io/Portfolio/): Overview, headline metrics, and navigation to all sections.
+- [About](https://kshitiz-gupta02.github.io/Portfolio/#about): Career background across Growth Central VC, Gyasi Ram and Sons, and Genpact.
+- [Resume](https://kshitiz-gupta02.github.io/Portfolio/#resume): Full work history, education, and skills, with a downloadable PDF.
+- [Contact](https://kshitiz-gupta02.github.io/Portfolio/#contact): Email and LinkedIn.
+
+## Case Studies — Strategy & Consulting
+
+- [FluorCo — HF Business Growth Strategy](https://kshitiz-gupta02.github.io/Portfolio/projects/fluorco.html): Bain Capability Network BrAINWARS 2023 — issue-tree diagnostics and growth strategy for a stagnating chemical manufacturer.
+- [Maruti Suzuki — EV Market Entry Strategy](https://kshitiz-gupta02.github.io/Portfolio/projects/xcelerate.html): XCELerate 2023, Semi-Finalist Top 10 B-School Track — market sizing, segmentation, and go-to-market strategy.
+- [Godrej Consumer Products — Financial Analysis](https://kshitiz-gupta02.github.io/Portfolio/projects/godrej.html): 11-year ratio analysis and DuPont decomposition of Return on Equity, with a 2-year forecast.
+- [Competitor Landscape — 214 Platforms Mapped](https://kshitiz-gupta02.github.io/Portfolio/projects/market-research.html): Growth Central VC market research project using the Critical Path Method.
+- [Daikoku — Trust-First Hiring Marketplace](https://kshitiz-gupta02.github.io/Portfolio/projects/daikoku.html): Co-founder role at an EdTech marketplace incubated at Shiv Nadar University's Atal Incubation Centre.
+
+## Case Studies — Operations & Product
+
+- [Ambulance Routing via Graph Theory](https://kshitiz-gupta02.github.io/Portfolio/projects/ambulance-routing.html): Operations Research project applying Dijkstra's algorithm and bipartite matching.
+- [KPI Systems — Three Iterations](https://kshitiz-gupta02.github.io/Portfolio/projects/kpi-systems.html): Redesigning performance management at a 200-person startup, driving a 60% productivity increase.
+- [Product Management Course Design](https://kshitiz-gupta02.github.io/Portfolio/projects/pm-course.html): Building and teaching a live cohort-based PM program generating ₹3,00,000 in Q1 revenue.
+- [Time and Motion Study](https://kshitiz-gupta02.github.io/Portfolio/projects/time-motion-study.html): Retail operations analysis at Gyasi Ram and Sons.
+- [Campus Recruitment & Internship Hiring](https://kshitiz-gupta02.github.io/Portfolio/projects/campus-recruitment.html): End-to-end hiring pipeline across 6 campus partnerships.
+
+## Contact
+
+- Email: kshitiz.gupta333@gmail.com
+- LinkedIn: https://linkedin.com/in/kshitiz-gupta02
