@@ -2,7 +2,7 @@
 
 > Interactive executive portfolio and operational dossier showcasing 10 end-to-end case studies across corporate strategy consulting, operations research, startup incubation, financial modelling, and performance architecture.
 
-[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)
+**[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)**
 
 ---
 
