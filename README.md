@@ -1,30 +1,35 @@
-# Kshitiz Gupta — Portfolio
+# Kshitiz Gupta — Quantitative Strategy & Operations Portfolio
 
-**[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)**
+> Interactive executive portfolio and operational dossier showcasing 10 end-to-end case studies across corporate strategy consulting, operations research, startup incubation, financial modelling, and performance architecture.
 
-A case study portfolio for **Business Analyst**, **Associate Business Consultant**, **Operations Analyst**, and **Strategy & Operations** roles. Built to show how I actually work — not just what I claim — across strategy consulting, operations management, and product management projects.
+[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)
+
+---
 
 ## About
 
-Early-career professional with hands-on experience in **startup operations**, **product development**, **compliance operations (AML)**, and **retail management**. Comfortable across analytics, strategy, and cross-functional coordination — from designing KPI frameworks and forecasting models to running financial analysis and market research.
+Early-career professional with 3 years of experience across operations, product, and analytics, building KPI systems, optimising business processes, and managing cross-functional teams from scratch. Have worked as an operations lead, product builder, and instructor across a VC-backed startup, a wholesale business, and a global KPO. Comfortable with Excel, Power BI, and turning messy operational problems into measurable outcomes. Comfortable across analytics, strategy, and cross-functional coordination — from designing KPI frameworks and forecasting models to running financial analysis and market research.
 
 **Background:** B.Tech in Electronics and Communication Engineering (Shiv Nadar University) with a Minor in Management Studies — Operations Research, Strategy & Management Consulting, Service Science & Digital Service Management, Organisational Change, and Financial Accounting.
 
-## Case Studies
+---
 
-**Strategy & Consulting**
-- **FluorCo Growth Strategy** — BrAINWARS 2023 (Bain Capability Network) — issue-tree diagnostics, growth strategy for a stagnating chemical manufacturer
-- **Maruti Suzuki EV Market Entry Strategy** — XCELerate 2023 — Semi-Finalist, Top 10 B-School Track — market sizing, consumer segmentation, go-to-market strategy
-- **Godrej Consumer Products Financial Analysis** — 11-year ratio analysis, DuPont decomposition of Return on Equity, 2-year forecast model
-- **Competitor Landscape Study** — 214 platforms mapped across the ed-tech / skill-assessment space using the Critical Path Method
-- **Daikoku** — Co-founder, EdTech/talent marketplace incubated at SNU's Atal Incubation Centre — 0-to-1 product strategy and B2B outreach
+## Summary of the 10 Case Studies
 
-**Operations & Product**
-- **Ambulance Routing via Graph Theory** — Operations Research project applying Dijkstra's algorithm and bipartite matching to minimize emergency response time
-- **KPI Systems Redesign** — three iterations of a performance management model at a 200-person startup, driving a 60% productivity increase
-- **Product Management Course Design** — built and taught a live, cohort-based PM program generating ₹3,00,000 in Q1 revenue
-- **Time and Motion Study** — retail operations analysis cutting customer interaction time and eliminating seasonal fulfilment delays
-- **Campus Recruitment & Internship Hiring** — end-to-end hiring pipeline across 6 campus partnerships with a 33% conversion rate
+| # | Project | Organization / Context | Category | Key Metric / Outcome | Core Tools |
+|---|---|---|---|---|---|
+| 1 | **KPI Systems Overhaul** | Growth Central VC | Operations & Product | **+60% Output, -40% Absenteeism** | Excel, Power BI, Google Sheets |
+| 2 | **PM Course Design & Delivery** | Growth Central VC | Operations & Product | **₹3,00,000 Q1 Rev, 85% Completion** | Figma, Notion, Loom, Slack |
+| 3 | **Maruti Suzuki XCELerate** | National Strategy Comp | Strategy Consulting | **Top 1.5% of 51,866 (Semi-Finalist)** | Power BI, Excel, Spatial Models |
+| 4 | **Daikoku Marketplace** | Atal Incubation Centre | Founder & Operations | **62% B2B Meeting Conversion** | Figma, Notion, Outbound CRM |
+| 5 | **FluorCo Turnaround** | Bain BrAINWARS | Strategy Consulting | **Cleared Round 1 of 3** | Excel, Queuing Theory, MECE |
+| 6 | **Time-Motion & Inventory Study** | Gyasi Ram & Sons | Operations Research | **-38% Customer Turnaround (12 min)** | Excel, Process Mapping |
+| 7 | **11-Year DuPont Analysis** | Godrej Consumer Products | Financial Modeling | **0.00x D/E Organic ROE Model** | Advanced Excel, Ratio Modeling |
+| 8 | **Ambulance Dynamic Dispatch** | Operations Research | Operations Research | **-10% Golden Hour Transit Time** | Python, NetworkX, SQL, Graph Theory |
+| 9 | **Campus Recruitment Drive** | Growth Central VC | People Operations | **100+ Screened, 33% FT Conversion** | ATS Funnels, Google Sheets, Rubrics |
+| 10 | **Competitive Intelligence Sprint** | Growth Central VC | Strategy & Research | **214 Platforms Mapped in 3 Weeks** | Notion, CPM Scheduling, Sheets |
+
+---
 
 ## Skills Demonstrated
 
@@ -32,20 +37,57 @@ Early-career professional with hands-on experience in **startup operations**, **
 
 **Tools:** SQL, Excel (Pivot Tables, VLOOKUP), Power BI, Google Workspace, MS Office
 
-## Site Structure
+---
 
-Static site, deployed on GitHub Pages, no build step required.
+## Portfolio Architecture & Tech Stack
 
+This application is built as a high-performance, single-page application with zero unnecessary dependencies, engineered for sub-second load times and accessible interaction across devices:
+
+- **Frontend Runtime**: Vite + TypeScript + Native ES6 Modules
+- **Design System**: Precision Editorial / Swiss High-Contrast Theme (Dark / Light mode toggle with persistent local storage)
+- **Typography**: Space Grotesk (Headings), Plus Jakarta Sans (Body), IBM Plex Mono (Formulas & Numerical Metrics)
+- **Data Visualizations**: Responsive SVG charts, interactive HTML5 Canvas simulators, and CSS grid layouts
+- **Interactive Exhibits**:
+  1. *FluorCo Worked Queuing Model*: M/M/1 capacity utilization calculation
+  2. *Live V3 KPI Calculator*: Interactive sliders modeling balanced workforce scoring (`5A + 2B − 6C + 10D − 4E`)
+  3. *EV Infrastructure Matrix*: Karnataka vs. UP charger density and mid-range pricing sweet spot
+  4. *11-Year DuPont ROE Model*: Net Margin × Asset Turnover × Equity Multiplier interactive table
+  5. *Dijkstra Emergency Dispatch Network*: Weighted graph visualization for golden hour transit
+- **SEO & Discoverability**:
+  - JSON-LD Structured Data Schema (`schema.org/Person` + `schema.org/ItemList`)
+  - Canonical URL tags, OpenGraph preview cards, and Twitter summary metadata
+  - XML Sitemap (`sitemap.xml`) and Web Crawler Directive (`robots.txt`)
+  - AI-Agent Knowledge Manifest (`llms.txt`) for LLM search engines (Perplexity, ChatGPT Search, Claude, Gemini)
+- **Recruiter Features**:
+  - Deep-link URL hash routing (`#project=xcelerate`, `#kpi-systems`, etc.) with 1-click clipboard sharing
+  - "Recruiter Quick-Scan" toggle view for rapid 60-second executive review
+  - Clean `@media print` styling for 1-click PDF resume saving
+
+---
+
+## Local Development & Build
+
+### Prerequisites
+- Node.js 18+ or Bun
+
+### Commands
+```bash
+# Install dependencies
+npm install
+
+# Start local development server
+npm run dev
+
+# Compile production bundle
+npm run build
+
+# Run linter
+npm run lint
 ```
-index.html          → Home, About, Projects, Resume, Contact
-styles.css           → Shared design system
-script.js            → Navigation + scroll behavior
-projects/            → One detail page per case study
-Kshitiz-Gupta-Resume.pdf
-```
 
-## Contact
+---
 
-- **Email:** kshitiz.gupta333@gmail.com
-- **LinkedIn:** [linkedin.com/in/kshitiz-gupta02](https://linkedin.com/in/kshitiz-gupta02)
-- **Location:** Delhi NCR, India — open to Associate roles in Project, Product, and Operations Management, and remote opportunities
+## Contact & Inquiries
+- **Email**: [kshitiz.gupta333@gmail.com](mailto:kshitiz.gupta333@gmail.com)
+- **Phone**: +91 8800236727
+- **Location**: Delhi NCR, India
