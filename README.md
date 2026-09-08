@@ -1,93 +1,65 @@
-# Kshitiz Gupta — Quantitative Strategy & Operations Portfolio
-
-> Interactive executive portfolio and operational dossier showcasing 10 end-to-end case studies across corporate strategy consulting, operations research, startup incubation, financial modelling, and performance architecture.
+# Kshitiz Gupta — Strategy, Operations & Quantitative Analytics Portfolio
 
 **[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)**
 
----
+An interactive portfolio showcasing 10 end-to-end case studies across strategy consulting, operations research, startup incubation, and financial modelling — built for **Business Analyst**, **Associate Product Manager**, **Operations Manager**, and **Strategy & Operations** roles.
 
 ## About
 
-Early-career professional with 3 years of experience across operations, product, and analytics, building KPI systems, optimising business processes, and managing cross-functional teams from scratch. Have worked as an operations lead, product builder, and instructor across a VC-backed startup, a wholesale business, and a global KPO. Comfortable with Excel, Power BI, and turning messy operational problems into measurable outcomes. Comfortable across analytics, strategy, and cross-functional coordination — from designing KPI frameworks and forecasting models to running financial analysis and market research.
+Early-career professional with hands-on experience across operations, product, and analytics — building KPI systems, optimizing business processes, and running cross-functional teams from scratch, across a VC-backed startup, a wholesale distribution business, and a global KPO.
 
 **Background:** B.Tech in Electronics and Communication Engineering (Shiv Nadar University) with a Minor in Management Studies — Operations Research, Strategy & Management Consulting, Service Science & Digital Service Management, Organisational Change, and Financial Accounting.
 
----
+## What's Actually on the Site
+
+This is a **self-contained static build** — `index.html`, `styles.css`, and `script.js`, deployed directly to GitHub Pages with no build step, no framework, no `npm install` required. Everything below is verified against the live code, not aspirational.
+
+- **Light/dark theme toggle**, persisted across visits
+- **5 interactive exhibits** with real, computed output — not static screenshots:
+  - A worked queuing model for FluorCo's capacity utilization
+  - A live KPI scoring calculator — drag the sliders and the balanced scorecard formula (`5A + 2B − 6C + 10D − 4E`) recalculates in real time
+  - An EV charging-infrastructure comparison across Indian states
+  - An 11-year DuPont ROE decomposition table (Godrej Consumer Products)
+  - A Dijkstra shortest-path graph visualization for ambulance dispatch
+- **Case-study modals** for all 10 projects, each with a "Copy Link" deep-link (`#fluorco`, `#kpi-systems`, etc.) handled by the site's own hash-routing
+- **Real `schema.org` JSON-LD structured data** (Person + ItemList) and OpenGraph/Twitter meta tags for link previews
+- Verified **WCAG AA color contrast** across both themes, and ARIA roles that match actual keyboard/screen-reader behavior (checked and corrected, not just asserted)
+- `sitemap.xml`, `robots.txt`, and `llms.txt` for search engine and AI-agent discoverability
 
 ## Summary of the 10 Case Studies
 
-| # | Project | Organization / Context | Category | Key Metric / Outcome | Core Tools |
-|---|---|---|---|---|---|
-| 1 | **KPI Systems Overhaul** | Growth Central VC | Operations & Product | **+60% Output, -40% Absenteeism** | Excel, Power BI, Google Sheets |
-| 2 | **PM Course Design & Delivery** | Growth Central VC | Operations & Product | **₹3,00,000 Q1 Rev, 85% Completion** | Figma, Notion, Loom, Slack |
-| 3 | **Maruti Suzuki XCELerate** | National Strategy Comp | Strategy Consulting | **Top 1.5% of 51,866 (Semi-Finalist)** | Power BI, Excel, Spatial Models |
-| 4 | **Daikoku Marketplace** | Atal Incubation Centre | Founder & Operations | **62% B2B Meeting Conversion** | Figma, Notion, Outbound CRM |
-| 5 | **FluorCo Turnaround** | Bain BrAINWARS | Strategy Consulting | **Cleared Round 1 of 3** | Excel, Queuing Theory, MECE |
-| 6 | **Time-Motion & Inventory Study** | Gyasi Ram & Sons | Operations Research | **-38% Customer Turnaround (12 min)** | Excel, Process Mapping |
-| 7 | **11-Year DuPont Analysis** | Godrej Consumer Products | Financial Modeling | **0.00x D/E Organic ROE Model** | Advanced Excel, Ratio Modeling |
-| 8 | **Ambulance Dynamic Dispatch** | Operations Research | Operations Research | **-10% Golden Hour Transit Time** | Python, NetworkX, SQL, Graph Theory |
-| 9 | **Campus Recruitment Drive** | Growth Central VC | People Operations | **100+ Screened, 33% FT Conversion** | ATS Funnels, Google Sheets, Rubrics |
-| 10 | **Competitive Intelligence Sprint** | Growth Central VC | Strategy & Research | **214 Platforms Mapped in 3 Weeks** | Notion, CPM Scheduling, Sheets |
-
----
+| # | Project | Context | Category | Key Outcome |
+|---|---|---|---|---|
+| 1 | KPI Systems Overhaul | Growth Central VC | Operations & Product | +60% output, −40% absenteeism |
+| 2 | PM Course Design & Delivery | Growth Central VC | Operations & Product | ₹3,00,000 Q1 revenue, 85% completion |
+| 3 | Maruti Suzuki XCELerate | National case competition | Strategy Consulting | Semi-Finalist, Top 1.5% of 51,866 |
+| 4 | Daikoku Marketplace | SNU Atal Incubation Centre | Founder & Operations | 13/21 outreach converted to meetings |
+| 5 | FluorCo Growth Diagnostic | Bain Capability Network (BrAINWARS) | Strategy Consulting | Cleared Round 1 of 3 |
+| 6 | Time & Motion Study | Gyasi Ram and Sons | Operations Research | Customer turnaround 20 → 12–13 min |
+| 7 | 11-Year DuPont Analysis | Godrej Consumer Products | Financial Modelling | 0.00x D/E, organic ROE growth |
+| 8 | Ambulance Routing | Operations Research (DOM208) | Operations Research | −10% golden-hour transit time |
+| 9 | Campus Recruitment Drive | Growth Central VC | People Operations | 12 onboarded, 33% FT conversion |
+| 10 | Competitor Intelligence Sprint | Growth Central VC | Strategy & Research | 214 platforms mapped in 3 weeks |
 
 ## Skills Demonstrated
 
-`KPI Design` `Process Optimization` `Operational Excellence` `Performance Measurement` `Trend Analysis` `Stakeholder Management` `Business Requirements` `Product Development` `Risk Flagging` `SLA Management` `Dashboards & Reporting` `Market Research` `Financial Analysis` `Competitive Benchmarking` `Go-to-Market Strategy` `Data-Driven Decision Making`
+`KPI Design` `Process Optimization` `Operational Excellence` `Performance Measurement` `Trend Analysis` `Stakeholder Management` `Business Requirements` `Financial Modelling` `Risk Flagging` `SLA Management` `Dashboards & Reporting` `Market Research` `Competitive Benchmarking` `Go-to-Market Strategy` `Data-Driven Decision Making`
 
-**Tools:** SQL, Excel (Pivot Tables, VLOOKUP), Power BI, Google Workspace, MS Office
+**Tools:** SQL, Excel (Pivot Tables, VLOOKUP, Macros), Power BI, Google Workspace
 
----
+## Site Structure
 
-## Portfolio Architecture & Tech Stack
-
-This application is built as a high-performance, single-page application with zero unnecessary dependencies, engineered for sub-second load times and accessible interaction across devices:
-
-- **Frontend Runtime**: Vite + TypeScript + Native ES6 Modules
-- **Design System**: Precision Editorial / Swiss High-Contrast Theme (Dark / Light mode toggle with persistent local storage)
-- **Typography**: Space Grotesk (Headings), Plus Jakarta Sans (Body), IBM Plex Mono (Formulas & Numerical Metrics)
-- **Data Visualizations**: Responsive SVG charts, interactive HTML5 Canvas simulators, and CSS grid layouts
-- **Interactive Exhibits**:
-  1. *FluorCo Worked Queuing Model*: M/M/1 capacity utilization calculation
-  2. *Live V3 KPI Calculator*: Interactive sliders modeling balanced workforce scoring (`5A + 2B − 6C + 10D − 4E`)
-  3. *EV Infrastructure Matrix*: Karnataka vs. UP charger density and mid-range pricing sweet spot
-  4. *11-Year DuPont ROE Model*: Net Margin × Asset Turnover × Equity Multiplier interactive table
-  5. *Dijkstra Emergency Dispatch Network*: Weighted graph visualization for golden hour transit
-- **SEO & Discoverability**:
-  - JSON-LD Structured Data Schema (`schema.org/Person` + `schema.org/ItemList`)
-  - Canonical URL tags, OpenGraph preview cards, and Twitter summary metadata
-  - XML Sitemap (`sitemap.xml`) and Web Crawler Directive (`robots.txt`)
-  - AI-Agent Knowledge Manifest (`llms.txt`) for LLM search engines (Perplexity, ChatGPT Search, Claude, Gemini)
-- **Recruiter Features**:
-  - Deep-link URL hash routing (`#project=xcelerate`, `#kpi-systems`, etc.) with 1-click clipboard sharing
-  - "Recruiter Quick-Scan" toggle view for rapid 60-second executive review
-  - Clean `@media print` styling for 1-click PDF resume saving
-
----
-
-## Local Development & Build
-
-### Prerequisites
-- Node.js 18+ or Bun
-
-### Commands
-```bash
-# Install dependencies
-npm install
-
-# Start local development server
-npm run dev
-
-# Compile production bundle
-npm run build
-
-# Run linter
-npm run lint
+```
+index.html      → Single-page site: Home, About, Projects, Experience, Skills, Contact
+styles.css      → Design system (light/dark themes)
+script.js       → Filtering, search, modals, hash-routing, theme toggle
+favicon.svg     → Site icon
+resume.pdf      → Downloadable resume
+sitemap.xml, robots.txt, llms.txt → Search engine & AI-agent discoverability
 ```
 
----
+## Contact
 
-## Contact & Inquiries
-- **Email**: [kshitiz.gupta333@gmail.com](mailto:kshitiz.gupta333@gmail.com)
-- **Phone**: +91 8800236727
-- **Location**: Delhi NCR, India
+- **Email:** kshitiz.gupta333@gmail.com
+- **LinkedIn:** [linkedin.com/in/kshitiz-gupta02](https://linkedin.com/in/kshitiz-gupta02)
+- **Location:** Delhi NCR, India — open to Project, Product, and Operations Management roles, and remote opportunities
