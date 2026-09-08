@@ -2,8 +2,6 @@
 
 **[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)**
 
-**[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)**
-
 ---
 
 ## About
