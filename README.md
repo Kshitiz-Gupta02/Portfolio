@@ -2,7 +2,9 @@
 
 **[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)**
 
-An interactive portfolio showcasing 10 end-to-end case studies across strategy consulting, operations research, startup incubation, and financial modelling — built for **Business Analyst**, **Associate Product Manager**, **Operations Manager**, and **Strategy & Operations** roles.
+**[View the live site →](https://kshitiz-gupta02.github.io/Portfolio/)**
+
+---
 
 ## About
 
