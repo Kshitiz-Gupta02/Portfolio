@@ -17,11 +17,12 @@
 
   --text-primary: #F8FAFC;
   --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  --text-muted: #7C8CA3; /* was #64748B (3.76-4.14:1, failed AA); now 5.23-5.75:1 */
   --text-inverse: #090B10;
 
   --accent: #E06D3B;
   --accent-hover: #F27B48;
+  --accent-text: #E06D3B; /* passes 6.02:1 on dark backgrounds */
   --accent-subtle: rgba(224, 109, 59, 0.12);
   --accent-glow: rgba(224, 109, 59, 0.25);
   --accent-secondary: #38BDF8;
@@ -60,6 +61,7 @@
 
   --accent: #C25E2E;
   --accent-hover: #A84A1E;
+  --accent-text: #A84A1E; /* passes 5.73:1 on white; base --accent (4.26:1) stays for backgrounds/borders only */
   --accent-subtle: rgba(194, 94, 46, 0.1);
   --accent-glow: rgba(194, 94, 46, 0.15);
   --accent-secondary: #0284C7;
@@ -283,7 +285,7 @@ img, svg {
 }
 
 .nav-link.active {
-  color: var(--accent);
+  color: var(--accent-text);
   background: var(--accent-subtle);
 }
 
@@ -451,7 +453,7 @@ img, svg {
   padding: 4px 10px;
   border-radius: 6px;
   background: var(--accent-subtle);
-  color: var(--accent);
+  color: var(--accent-text);
   font-weight: 600;
   border: 1px solid var(--border-accent);
 }
@@ -471,7 +473,7 @@ img, svg {
 }
 
 .hero-title .highlight {
-  color: var(--accent);
+  color: var(--accent-text);
   position: relative;
   display: inline-block;
 }
@@ -618,7 +620,7 @@ img, svg {
 .pillar-tag {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--accent-text);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 8px;
@@ -657,7 +659,7 @@ img, svg {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--accent);
+  color: var(--accent-text);
   margin-bottom: 10px;
   display: block;
 }
@@ -779,7 +781,7 @@ img, svg {
   padding: 6px 16px;
   border-radius: 6px;
   background: var(--accent-subtle);
-  color: var(--accent);
+  color: var(--accent-text);
   border: 1px solid var(--border-accent);
   cursor: pointer;
   transition: all 0.2s ease;
@@ -891,7 +893,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--accent-text);
   line-height: 1.15;
 }
 
@@ -922,7 +924,7 @@ img, svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent);
+  color: var(--accent-text);
   flex-shrink: 0;
 }
 
@@ -973,7 +975,7 @@ img, svg {
 .detail-key {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.6875rem;
-  color: var(--accent);
+  color: var(--accent-text);
   text-transform: uppercase;
   min-width: 68px;
   font-weight: 600;
@@ -998,7 +1000,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.8125rem;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-text);
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1084,7 +1086,7 @@ img, svg {
 .framework-num {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--accent-text);
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1109,7 +1111,7 @@ img, svg {
   padding: 10px 12px;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--accent-text);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1145,7 +1147,7 @@ img, svg {
 }
 
 .card-chart-title .badge-pill {
-  color: var(--accent);
+  color: var(--accent-text);
   font-weight: 600;
 }
 
@@ -1323,7 +1325,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2.25rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--accent-text);
   line-height: 1;
 }
 
@@ -1393,7 +1395,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--accent-text);
   line-height: 1.2;
 }
 
@@ -1414,7 +1416,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--accent);
+  color: var(--accent-text);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1518,7 +1520,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-text);
   background: transparent;
   border: 1px solid var(--border-subtle);
   border-radius: 999px;
@@ -1551,7 +1553,7 @@ img, svg {
 }
 
 .modal-share-btn:hover {
-  color: var(--accent);
+  color: var(--accent-text);
   border-color: var(--accent);
   background: var(--bg-surface-elevated);
 }
@@ -1650,7 +1652,7 @@ img, svg {
 .role-dates {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--accent-text);
   font-weight: 500;
 }
 
@@ -1673,7 +1675,7 @@ img, svg {
   content: '—';
   position: absolute;
   left: 0;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 /* Skills Grid */
@@ -1700,7 +1702,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-text);
   letter-spacing: 0.08em;
   margin-bottom: 14px;
   display: block;
@@ -1860,7 +1862,7 @@ img, svg {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1.35rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--accent-text);
   margin-bottom: 4px;
 }
 
@@ -1951,7 +1953,7 @@ img, svg {
 
 .copy-email-btn:hover {
   border-color: var(--accent);
-  color: var(--accent);
+  color: var(--accent-text);
   background: var(--accent-subtle);
 }
 

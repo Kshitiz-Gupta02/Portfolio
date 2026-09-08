@@ -1116,8 +1116,12 @@ function initFiltersAndSearch() {
 
   pills.forEach(pill => {
     pill.addEventListener('click', () => {
-      pills.forEach(p => p.classList.remove('active'));
+      pills.forEach(p => {
+        p.classList.remove('active');
+        p.setAttribute('aria-pressed', 'false');
+      });
       pill.classList.add('active');
+      pill.setAttribute('aria-pressed', 'true');
       currentCategory = pill.getAttribute('data-filter') || 'all';
       applyFilters();
     });

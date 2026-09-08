@@ -7,7 +7,7 @@
 - **Location**: Delhi NCR, India
 - **Email**: kshitiz.gupta333@gmail.com
 - **Phone**: +91 8800236727
-- **Portfolio**: https://kshitizgupta.com/
+- **Portfolio**: https://kshitiz-gupta02.github.io/Portfolio/
 - **Target Roles**: Project & Operations Manager, Product Manager / Associate Product Manager (APM), Business Analyst, Business Intelligence (BI) Analyst, Business Operations (BizOps)
 - **Education**: B.Tech, Shiv Nadar University (Greater Noida, India)
 
@@ -106,15 +106,15 @@
 ---
 
 ## Links & Online Presence
-- **Interactive Portfolio**: https://kshitizgupta.com/
+- **Interactive Portfolio**: https://kshitiz-gupta02.github.io/Portfolio/
 - **Deep Links**:
-  - https://kshitizgupta.com/#kpi-systems
-  - https://kshitizgupta.com/#pm-course
-  - https://kshitizgupta.com/#xcelerate
-  - https://kshitizgupta.com/#daikoku
-  - https://kshitizgupta.com/#fluorco
-  - https://kshitizgupta.com/#time-motion-study
-  - https://kshitizgupta.com/#godrej
-  - https://kshitizgupta.com/#ambulance-routing
-  - https://kshitizgupta.com/#campus-recruitment
-  - https://kshitizgupta.com/#market-research
+  - https://kshitiz-gupta02.github.io/Portfolio/#kpi-systems
+  - https://kshitiz-gupta02.github.io/Portfolio/#pm-course
+  - https://kshitiz-gupta02.github.io/Portfolio/#xcelerate
+  - https://kshitiz-gupta02.github.io/Portfolio/#daikoku
+  - https://kshitiz-gupta02.github.io/Portfolio/#fluorco
+  - https://kshitiz-gupta02.github.io/Portfolio/#time-motion-study
+  - https://kshitiz-gupta02.github.io/Portfolio/#godrej
+  - https://kshitiz-gupta02.github.io/Portfolio/#ambulance-routing
+  - https://kshitiz-gupta02.github.io/Portfolio/#campus-recruitment
+  - https://kshitiz-gupta02.github.io/Portfolio/#market-research
