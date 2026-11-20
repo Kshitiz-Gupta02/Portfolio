@@ -1,120 +1,118 @@
-# Kshitiz Gupta — Strategy, Operations & Quantitative Analytics
+# Kshitiz Gupta: Quantitative Strategy, Operations & Analytics
 
-> Quantitative strategist, operations architect, and startup co-founder specializing in mathematical problem-solving, incentive design, and zero-to-one operational execution.
+> Engineering graduate (B.Tech ECE, Minor in Management Studies, Shiv Nadar University) with hands-on experience in business requirements documentation, workflow automation, quantitative modeling and process optimization. Worked across a VC-backed startup, a wholesale distribution business and a global KPO, and co-founded an incubated EdTech startup.
 
-## Profile Overview
+## Profile
+
 - **Name**: Kshitiz Gupta
 - **Location**: Delhi NCR, India
 - **Email**: kshitiz.gupta333@gmail.com
 - **Phone**: +91 8800236727
 - **Portfolio**: https://kshitiz-gupta02.github.io/Portfolio/
-- **Target Roles**: Project & Operations Manager, Product Manager / Associate Product Manager (APM), Business Analyst, Business Intelligence (BI) Analyst, Business Operations (BizOps)
-- **Education**: B.Tech, Shiv Nadar University (Greater Noida, India)
+- **Resume (PDF)**: https://kshitiz-gupta02.github.io/Portfolio/assets/aistudio/Resume_Business_Analyst_9194b217.pdf
+- **LinkedIn**: https://www.linkedin.com/in/kshitiz-gupta02/
+- **GitHub**: https://github.com/kshitiz-gupta02
+- **CodeChef**: https://www.codechef.com/users/kshitiz_2002
+- **Target roles**: Business Analyst, Associate Consultant, Strategy & Operations, Project Coordinator
+- **Education**: B.Tech in Electronics and Communication Engineering with a Minor in Management Studies, Shiv Nadar University, Greater Noida (August 2020 to May 2024)
+
+## About the portfolio site
+
+The portfolio is a single-page site with five parts: a hero with four headline metrics, an About & Competencies section, 10 featured case studies, a career timeline and a contact section with a resume viewer. Each case study opens in a popup on the same page, so there are no separate URLs per project. The original project files for each case study are linked below.
+
+## Headline metrics
+
+- **20 to 200+**: the company grew 10x during the Growth Central VC core team period (core team of 4)
+- **Top 10**: Maruti Suzuki XCELerate 2023, B-School track (51,866 registrants)
+- **22 UAT cases**: run on the KPI dashboard project (20 passed, 2 defects found and fixed), across 5 epics and 13 user stories
+- **₹3,00,000**: Q1 revenue from the education product line launched at Growth Central VC
+
+## Experience
+
+- **Senior Associate, AML Operations, Genpact** (May 2025 to November 2025): root-cause analysis of transaction monitoring workflows in a macro-enabled tracker; structured Microsoft Copilot prompt templates to draft Suspicious Activity Report narratives (4% less documentation time); Power Automate flows to sort and prioritize daily transaction alerts; As-Is and To-Be workflow mapping in MS Visio and SOP updates.
+- **Assistant Manager, Business Operations & Analytics, Gyasi Ram & Sons** (July 2024 to April 2025): time-and-motion study across 10 product categories (54 SKUs); Excel demand forecasting prototype; manufacturing bottleneck diagnosis; warehouse operations for a 15-person team and replenishment across 6 suppliers.
+- **Core Team Member, Strategy & Analytics, Growth Central VC** (August 2021 to July 2023): core team of 4 (founder, sales, marketing and Kshitiz). Owned all non-sales operations including product, tech and HR. Joined the core team after a Product Management internship (July to August 2021). Built the KPI scoring system and its BRD, user stories, PostgreSQL pipeline and Power BI dashboard; launched a new education product line; led campus recruitment.
+- **Co-Founder, Daikoku** (June to December 2022): two-sided EdTech talent marketplace incubated at the Atal Incubation Centre, Shiv Nadar University.
+
+## Skills
+
+**Analytics & Modeling**: Power BI and DAX (star schema, time-intelligence measures, Power Query), PostgreSQL and DBeaver (constraints, staging and upsert pipelines), financial and ratio modeling (3-step DuPont ROE, common-size analysis, forecasting), operations research (Dijkstra's shortest path, queuing theory, network optimization), advanced Excel (XLOOKUP, dynamic arrays, pivots, scenario modeling).
+
+**Strategy & Operations**: business analysis (BRD, user stories with Given/When/Then acceptance criteria), process flow and system architecture (flowcharts, swimlanes, ERD in MS Visio and draw.io), capacity and bottleneck planning, workflow automation (Power Automate), UAT and defect management (traceability matrix, test scenarios, root-cause analysis).
+
+**Product & Consulting**: market sizing and segmentation, 0-to-1 venture incubation, agile project management (JIRA, Confluence, Critical Path Method), curriculum and program design, executive stakeholder presentations.
+
+## The 10 featured case studies
+
+### 1. Performance Management Redesign (KPI Dashboards), Growth Central VC
+- **Period**: August 2021 to August 2022 | **Role**: Core Team Member, sole owner of the business analysis lifecycle and systems
+- **Problem**: recruiter performance was tracked by raw counts, then by productivity ratios that led to arguments over candidate attribution. Weekly data arrived in inconsistent spreadsheets with no deduplication or trend analysis.
+- **What was built**: a formal BRD and 13 user stories across 5 JIRA epics; a PostgreSQL schema with integrity constraints; a DBeaver upsert pipeline; a Power BI dashboard with team and group slicers and custom DAX time-intelligence.
+- **Scoring formula (V3)**: `Total Score = 5A + 2B - 6C + 10D - 4E` where E = C - D, balancing sourcing effort against interview quality. The model went through 3 iterations.
+- **Results**: 22 UAT test cases run, 20 passed; 2 high-severity defects caught in UAT (an alphabetical MIN bug on status bands and an inverted sign on negative week-over-week denominators).
+- **Tools**: Power BI, DAX, PostgreSQL, DBeaver, JIRA, Confluence, draw.io, Excel data validation
+- **Project files**: https://drive.google.com/drive/folders/1E0fjcqQyj1njvmEVz1gaQTCQxVTi6KXG?usp=sharing
+
+### 2. New Product Line Launch: Expert-Led Courses & PM Program, Growth Central VC
+- **Period**: October 2021 to January 2022 | **Role**: Core Team Member (product layout, operations and tech platform)
+- **Problem**: the company had a single commercial product (skill assessment tests and certificates) and needed more revenue streams.
+- **What was built**: 4 self-paced expert courses (Finance, Marketing, CS, Cyber Security) with domain experts of 10+ years, plus a live 8-week Product Management cohort program built around a 6-week management internship, designed and taught by Kshitiz.
+- **Results**: ₹3,00,000 in Q1 revenue (₹2,50,000 from the 4 courses and ₹50,000 from the PM program); 85% completion rate; enrollment grew from 60+ to 100+ students in 6 months; 40% of PM cohort completers moved into paid internship placements.
+- **Project files**: https://drive.google.com/drive/folders/15ItsVQvv72Q8pxY_UCPCky_MAtwJQxsA?usp=sharing
+
+### 3. Forecasting Model & Capacity Bottleneck Analysis, Gyasi Ram & Sons
+- **Period**: July 2024 to April 2025 | **Role**: Assistant Manager, Business Operations & Analytics
+- **Problem**: seasonal demand surges from July to September caused repeated stockouts and customer waits of 20+ minutes.
+- **What was built**: an Excel forecasting model for 54 SKUs and a map of the 3-workstation manufacturing pipeline.
+- **Results**: 2025 demand of 483,840 units against a manufacturing limit of 394,230, leaving 96,070 units (20%) of unmet demand; the cutting and singeing workstation hit 312% utilization in August; Q1 forecast validated at 2.1% MAPE (28,980 forecast vs 29,526 actual units); customer interaction time cut from 20 to 12-13 minutes and average basket size raised from 2-3 to 4-5 products.
+- **Tools**: time-and-motion study, Excel forecasting, bottleneck analysis, MAPE and bias tracking
+- **Project files**: https://drive.google.com/drive/folders/1Cnw8zzNfQA4ox7DDNKdSU2cmAR72SbfE?usp=sharing
+
+### 4. Electric Vehicle Market Entry Strategy & Infrastructure, Maruti Suzuki XCELerate 2023
+- **Period**: August to October 2023 | **Role**: Semi-Finalist
+- **Result**: Top 10 in the B-School track (Top 20 overall) from 51,866 registrants across India.
+- **What was built**: an EV market-entry strategy covering charging station density, consumer psychography, price-tier targeting (mid-range focus at ₹9-15 lakh), launch state selection and a repositioning campaign for Maruti Suzuki's EV, plus a competitor positioning matrix and a 4-tier risk mitigation matrix.
+- **Tools**: market sizing, competitive benchmarking, infrastructure analytics, executive deck design
+- **Project files**: https://drive.google.com/drive/folders/1Y4JsfUDt3EnKaZFjGPqmZ8gyk8Yd7gOA?usp=sharing
+
+### 5. Daikoku: Two-Sided Marketplace & Startup Incubation, Atal Incubation Centre (SNU)
+- **Period**: June to December 2022 | **Role**: Co-Founder (operations, strategy and marketing lead)
+- **Problem**: undergraduate students lack project experience, and early-stage startups lack pre-evaluated talent.
+- **What was done**: customer discovery survey of 53 students (79.2% willing to do real projects); outreach to 21 early-stage startups; pitch decks for the incubator.
+- **Results**: 13 of 21 startups converted into meetings (62%); ₹23,000 early revenue from a website-development engagement; coordinated 4 co-founders across operations, web development, XR/Unity and marketing.
+- **Project files**: https://drive.google.com/drive/folders/18bxVORw4bbdf9egULvmRO9jpvWs-sm2a?usp=sharing
+
+### 6. FluorCo Growth Diagnostic & Queuing Model, Bain Capability Network (BrAINWARS 2023)
+- **Period**: September to October 2023 | **Role**: Team Member
+- **Problem**: a 50-year-old hydrofluoric acid firm stagnated despite strong company growth.
+- **What was built**: a MECE issue tree and a queuing model (Little's Law) showing 4 compounding root causes. Fixed costs were not the margin driver; volatile plant utilization and costly fluorspar imports pushed unit costs to $38,900 per case against $25,000 for peers. The model moves utilization from 64% to 90%.
+- **Result**: cleared Round 1 of Bain's national case competition and advanced to Round 2, with 5 prioritized recommendations (supplier diversification, category mix, regional expansion, brand investment).
+- **Project files**: https://drive.google.com/drive/folders/1pphCi7QIauoZzM-nZT1Ap68F4HRjBBX9?usp=sharing
+
+### 7. Campus Recruitment & Internship Hiring Pipeline, Growth Central VC
+- **Period**: March to August 2022 | **Role**: Core Team Member (recruitment function lead)
+- **What was done**: led campus recruitment across 5 institutions (LPU, KMC, DDUC, DTU E-Cell, IIM Rohtak ArthaShastra) and set up standardized screening guides and interview criteria.
+- **Results**: 100+ applicants sourced, 60+ interviews, 15 interns onboarded, 33% post-internship conversion (5 of 15 retained).
+- **Project files**: https://drive.google.com/drive/folders/1oj0j8ZzqvzmWg71Q0JiiH7YsU6WdiT5W?usp=sharing
+
+### 8. Market Research: Competitor Landscape Study, Growth Central VC
+- **Period**: July to August 2021 | **Role**: Product Management Intern (led 7 research interns)
+- **What was done**: mapped 200+ competitors across course learning and skill certification in 3 weeks (50% faster than the target) using the Critical Path Method, with customer surveys and pricing sensitivity analysis.
+- **Result**: validated the case for course learning as the company's second product line; the founder offered a core team role afterwards.
+- **Project files**: https://drive.google.com/drive/folders/1Gmf_nS38Z3pBir0P0YGzLLreZ6S93lau?usp=sharing
+
+### 9. EMS Route Optimization & Performance Management, DOM208 Operations Research
+- **Period**: November 2022 | **Role**: Lead Researcher
+- **What was built**: ambulance routing modeled as a weighted directed graph, solved with Dijkstra's shortest path algorithm, extended to bipartite matching for multi-ambulance dispatch, plus a KPI framework (response time, turnaround time, ambulance utilization, distance efficiency).
+- **Result**: 10% gain in distance efficiency (0.90 to 1.00), which is 2 minutes saved per round trip, or 48+ minutes across 24 daily trips.
+- **Project files**: https://drive.google.com/drive/folders/1-_HfoAcBc3YtDqia0iVg3oyggPED12UL?usp=sharing
+
+### 10. Godrej Consumer Products: DuPont Analysis & Forecast, FAC105 Financial Accounting
+- **Period**: November 2021 | **Role**: Lead Analyst
+- **What was built**: an 11-year review (FY2012 to FY2022) with horizontal and vertical analysis, ratio analysis, 3-step DuPont ROE decomposition and a 2-year forecast in Excel.
+- **Findings**: the FY2019 ROE spike (35.6%) came from a one-off tax credit of ₹282 crore, not operations; raw material costs rose from 34.7% of revenue in FY18 to 43.6% in FY22; fixed asset turnover improved from 2.55x to 4.78x; the company is debt-free (0.00x debt-to-equity).
+- **Project files**: https://drive.google.com/drive/folders/1-_HfoAcBc3YtDqia0iVg3oyggPED12UL?usp=sharing
 
 ---
 
-## Core Competencies & Tool Stack
-- **Quantitative Modeling**: DuPont Financial ROE Decomposition, Queuing Theory (Little's Law, M/M/1), Graph Theory (Dijkstra's Shortest Path Algorithm), Bipartite Matching, Critical Path Method (CPM), Time-and-Motion Studies, Incentive & Scoring Formula Design.
-- **Analytical & BI Tools**: Advanced Excel (VLOOKUP, INDEX/MATCH, Pivot Tables, Scenario Modeling), Power BI (Data Modeling, DAX, Interactive Executive Dashboards), Google Sheets, Python (NetworkX, Pandas, NumPy), SQL (Relational queries, window functions).
-- **Product & Design**: Figma (UI/UX Wireframing, User Flow Architecture), Notion (PRDs, Agile Sprint Backlogs, Knowledge Hubs), Jira, Loom, Slack.
-- **Strategic Frameworks**: MECE Issue Trees, Hypotheses-Driven Problem Solving, Value Driver Trees, State EV Launchpad Density Scoring, B2B Outbound Conversion Optimization.
-
----
-
-## Key Achievements & Milestones
-- **Maruti Suzuki XCELerate National Semi-Finalist**: Ranked in the Top 1.5% out of 51,866 Indian B-School candidates (Top 10 B-School Tier).
-- **Bain Capability Network (BrAINWARS)**: Cleared Round 1 of 3 in national corporate strategy competition analyzing FluorCo's chemical manufacturing cost structure.
-- **V3 Balanced KPI Scoring Engine**: Designed and iterated performance algorithm adopted by 200+ employees across 5 departments at Growth Central VC; achieved +60% output gain, -40% absenteeism, and quadrupled retention from 10% to 40%.
-- **EdTech Live Product Line**: Recruited 4 domain leaders and personally taught an 8-week Product Management live course driving ₹3,00,000 Q1 revenue with an 85% completion rate.
-- **Atal Incubation Centre (AIC SNU) Startup**: Co-founded Daikoku, achieved 62% B2B client conversion (13 meetings from 21 outreach calls) and early revenues.
-- **Operations Research Publications**: Formulated Dijkstra-based emergency EMS dispatch model saving 10% in golden hour transit times; conducted wholesale floor time-motion study cutting customer turnaround from 20 to 12 minutes (-38%).
-
----
-
-## The 10 Featured Case Studies
-
-### 1. KPI Systems Overhaul (Growth Central VC)
-- **Category**: Operations & Product Architecture
-- **Problem**: V1 tracked raw counts (superficial speed); V2 ratio model triggered candidate hoarding and refusal to source.
-- **Formula**: `Score = 5A + 2B − 6C + 10D − 4E` where A = Job Ads, B = Applicants Sourced, C = Shortlists Made, D = Passed Interview, E = Unselected Candidates (C - D).
-- **Impact**: Adopted across 5 departments (200+ people); +60% productivity, -40% absenteeism, retention up from 10% to 40%.
-- **Tools**: Excel, Power BI, Google Sheets, KPI Dashboards.
-
-### 2. Product Management Course Design & Delivery (Growth Central VC)
-- **Category**: Operations & Product Management
-- **Problem**: Need to diversify from commodity skill certificates into high-retention, high-ticket live cohorts.
-- **Approach**: Recruited 4 domain experts (Finance, Marketing, CS, Cybersecurity) while building and personally instructing an 8-week live PM cohort with 6-week management simulation.
-- **Impact**: ₹3,00,000 in Q1 revenue; 85% completion rate; scaled from 60 to 100+ students.
-- **Tools**: Figma, Notion, Google Workspace, Loom, Slack.
-
-### 3. Maruti Suzuki XCELerate — EV Infrastructure & Strategy
-- **Category**: Strategy & Market Entry
-- **Problem**: Formulate 2025–2030 India EV rollout strategy addressing charging infrastructure gaps and buyer price sensitivity.
-- **Approach**: Evaluated state charging densities (Karnataka 220.7 vs UP 1,107.9 EVs/charger). Placed Maruti's "eBharat" vehicle in the ₹9–15 Lakh mid-range utility sweet spot.
-- **Impact**: National Semi-Finalist (Top 1.5% of 51,866 candidates); Top 10 B-School Tier.
-- **Tools**: Power BI, Excel, Market Segmentation Models, Geospatial Mapping.
-
-### 4. Daikoku — Atal Incubation Centre (AIC SNU)
-- **Category**: Zero-to-One Founder & Operations
-- **Problem**: High friction and trust deficits in early-stage student & junior talent hiring.
-- **Approach**: Built two-sided talent marketplace with a "Swipe Mode" verified evaluation workflow. Ran founder-led B2B outbound campaign across 21 early-stage startups.
-- **Impact**: 62% meeting conversion rate (13 meetings); ₹23,000 early revenue; secured incubation at AIC SNU.
-- **Tools**: Figma, Notion, Cold Outreach CRM, Google Workspace.
-
-### 5. Bain Capability Network (BrAINWARS) — FluorCo Turnaround
-- **Category**: Strategy Consulting & Diagnostics
-- **Problem**: FluorCo faced falling gross margins and unit cost penalties on fluorspar imports.
-- **Approach**: MECE diagnostic identifying Vietnam/Canada supply penalty ($38.9k/case vs $25k-$30k benchmark) and plant underutilization (37%–64%). Applied M/M/1 queuing model proving 90% utilization target cuts cost penalty.
-- **Impact**: Cleared Round 1 of 3 in national competition.
-- **Tools**: Excel, Queuing Theory, MECE Issue Trees, Financial Decomposition.
-
-### 6. Retail Inventory & Time-Motion Study (Gyasi Ram & Sons)
-- **Category**: Operations Research & Lean
-- **Problem**: Bottlenecks in high-volume B2B/B2C grain wholesale with customer queues averaging 20 minutes.
-- **Approach**: Conducted 3-phase time-and-motion study across billing, dispatch, and physical staging. Re-engineered dual-counter order intake and reorder-point inventory buffers.
-- **Impact**: Slashed floor turnaround from 20 to 12 minutes (-38%); eliminated stockouts.
-- **Tools**: Excel, Process Flow Diagrams, Time-and-Motion Observation Sheets.
-
-### 7. DuPont Financial Analysis (Godrej Consumer Products)
-- **Category**: Financial Modeling & Equity Analysis
-- **Problem**: Unpack 11-year shareholder returns and identify true structural growth drivers for GCPL (FY2012–FY2022).
-- **Approach**: 3-stage DuPont decomposition: `ROE = Net Margin × Asset Turnover × Equity Multiplier`. Dissected FY19 ROE surge (35.6%) due to deferred tax credit, and proved sustained organic performance at 0.00x Debt-to-Equity.
-- **Impact**: Delivered comprehensive 11-year financial model explaining organic margin expansion vs financial leverage.
-- **Tools**: Advanced Excel, Financial Statement Decomposition, Ratio Analysis, Power BI.
-
-### 8. Dynamic Hospital Ambulance Routing & Dispatch
-- **Category**: Operations Research & Optimization
-- **Problem**: Peak-hour urban congestion causing critical delays during emergency EMS transport.
-- **Approach**: Modeled urban traffic as a directed graph. Implemented Dijkstra's shortest-path algorithm combined with bipartite triage matching.
-- **Impact**: Reduced round-trip emergency transit time by 2 minutes (-10%), critical for the golden hour survival window.
-- **Tools**: Python, NetworkX, Graph Theory, SQL, Geolocation Data.
-
-### 9. Pan-India Campus Recruitment Drive (Growth Central VC)
-- **Category**: People Operations & Talent Sourcing
-- **Problem**: Scale junior analyst and operations intern capacity rapidly without sacrificing quality.
-- **Approach**: Standardized 3-stage assessment rubrics and negotiated college partnerships across 6 premier campuses (DTU, IIM Rohtak, KMC, etc.).
-- **Impact**: Screened 100+ candidates, interviewed 30+, onboarded 12 high-performing interns, with 4 converted to permanent roles (33% conversion).
-- **Tools**: Google Workspace, ATS Funnels, Rubric Evaluation Sheets, Excel.
-
-### 10. Competitor Intelligence & Market Landscape (Growth Central VC)
-- **Category**: Strategy & Market Research
-- **Problem**: Executive leadership required granular competitive intelligence across the Indian skill assessment ecosystem under a strict deadline.
-- **Approach**: Deployed Critical Path Method (CPM) to manage a 7-intern research pod, dividing taxonomy, scraping, pricing, and feature scoring.
-- **Impact**: Benchmarked 214 competitor platforms across 12 parameters; delivered in 3 weeks (50% faster than 6-week target).
-- **Tools**: Notion, Google Sheets, CPM Scheduling, Secondary Research Frameworks.
-
----
-
-## Links & Online Presence
-- **Interactive Portfolio**: https://kshitiz-gupta02.github.io/Portfolio/
-- **Deep Links**:
-  - https://kshitiz-gupta02.github.io/Portfolio/#kpi-systems
-  - https://kshitiz-gupta02.github.io/Portfolio/#pm-course
-  - https://kshitiz-gupta02.github.io/Portfolio/#xcelerate
-  - https://kshitiz-gupta02.github.io/Portfolio/#daikoku
-  - https://kshitiz-gupta02.github.io/Portfolio/#fluorco
-  - https://kshitiz-gupta02.github.io/Portfolio/#time-motion-study
-  - https://kshitiz-gupta02.github.io/Portfolio/#godrej
-  - https://kshitiz-gupta02.github.io/Portfolio/#ambulance-routing
-  - https://kshitiz-gupta02.github.io/Portfolio/#campus-recruitment
-  - https://kshitiz-gupta02.github.io/Portfolio/#market-research
+*Last updated: November 2026*
