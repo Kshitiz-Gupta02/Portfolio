@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Download, Copy, Check, Printer, ExternalLink, Mail, Phone, MapPin, Globe } from 'lucide-react';
+import { X, Download, Copy, Check, Mail, Phone, MapPin } from 'lucide-react';
 import { PERSONAL_INFO, EXPERIENCE_HISTORY, SKILL_CATEGORIES } from '../data/portfolioData';
 
 interface ResumeModalProps {
@@ -36,10 +36,6 @@ ${SKILL_CATEGORIES.map(cat => `${cat.category}: ${cat.skills.map(s => s.name).jo
     navigator.clipboard.writeText(resumeText);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
-  };
-
-  const handlePrint = () => {
-    window.print();
   };
 
   return (

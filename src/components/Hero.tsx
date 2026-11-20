@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Download, FileText, ArrowDown } from 'lucide-react';
+import { ArrowRight, Download, ArrowDown } from 'lucide-react';
 import { PERSONAL_INFO, HEADLINE_METRICS } from '../data/portfolioData';
 
 interface HeroProps {
