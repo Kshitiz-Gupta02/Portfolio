@@ -143,27 +143,27 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     images: [
       {
         title: "Power BI Dashboard (Full Multi-Team View)",
-        src: "./assets/aistudio/dashboard_1_8f2358ff.png",
+        src: "./assets/aistudio/dashboard_1_8f2358ff.webp",
         caption: "All-teams view showing 9-week score trajectories, status cards, and week-over-week trends."
       },
       {
         title: "JIRA Screenshot",
-        src: "./assets/aistudio/JIRA_SS_8fe91682.png",
+        src: "./assets/aistudio/JIRA_SS_8fe91682.webp",
         caption: "Live JIRA backlog showing 13 user stories across 5 epics (Weekly Data Capture to Handover)."
       },
       {
         title: "Group Slicer Drilldown 1",
-        src: "./assets/aistudio/dashboard_2_cd63caec.png",
+        src: "./assets/aistudio/dashboard_2_cd63caec.webp",
         caption: "Apex Talent Solutions — group-level performance tracking for Candidate Relations, Lifecycle Recruitment, Performance Sourcing, and Talent Analytics."
       },
       {
         title: "Group Slicer Drilldown 2",
-        src: "./assets/aistudio/dashboard_3_dbd1aac1.png",
+        src: "./assets/aistudio/dashboard_3_dbd1aac1.webp",
         caption: "Human Capital Partners — comparative group breakdown for Client Advisory and Workforce Planning tracking WoW momentum."
       },
       {
         title: "Group Slicer Drilldown 3",
-        src: "./assets/aistudio/dashboard_4_12c813b8.png",
+        src: "./assets/aistudio/dashboard_4_12c813b8.webp",
         caption: "Enterprise Acquisition Group — Talent Pipelines drilldown resolving historical negative score inflection points."
       }
     ]
@@ -226,12 +226,12 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     images: [
       {
         title: "Excel Model Dashboard — Demand, Capacity Limit & Bottleneck Analysis",
-        src: "./assets/aistudio/Model_Dashboard_e03b9548.png",
+        src: "./assets/aistudio/Model_Dashboard_e03b9548.webp",
         caption: "2025 demand (483,840 units) vs. 394,230 annual manufacturing limit, isolating the Measuring, Cutting & Singeing bottleneck (312% peak August utilization) and 96,070 unmet units."
       },
       {
         title: "Excel Validation Dashboard — Q1 Forecast vs. Actual Sales (2.1% MAPE)",
-        src: "./assets/aistudio/Validation_Dashboard_319caa70.png",
+        src: "./assets/aistudio/Validation_Dashboard_319caa70.webp",
         caption: "Q1 (Jan–Mar) forecast validation comparing 28,980 projected vs. 29,526 actual units across Single, Double, Queen, and King sizes (-1.8% bias, 2.1% MAPE)."
       }
     ]
@@ -266,57 +266,57 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     images: [
       {
         title: "Round 2 Deck — Market Baseline, Supply Chain & Competitor Ecosystem",
-        src: "./assets/aistudio/1_9d703c03.png",
+        src: "./assets/aistudio/1_9d703c03.webp",
         caption: "Maps India's ICE vehicle mix (56.5% 4W, 25.7% 3W, 17.7% 2W), EV operating economics (₹1–3/km vs. ₹7–8/km petrol/diesel), Maruti Suzuki's supply chain (Nexa, True Value, Dealers, Service Centres), and OEM EV coverage."
       },
       {
         title: "Round 2 Deck — Cost Challenges, Auto Clusters & Survey Insights",
-        src: "./assets/aistudio/2_2b686215.png",
+        src: "./assets/aistudio/2_2b686215.webp",
         caption: "Highlights EV software & charging capex challenges, carryover parts cost-reduction levers, India's four regional manufacturing clusters, FAME/Green Tax tailwinds, and Maruti vs. Tata/Toyota sentiment survey findings."
       },
       {
         title: "Round 2 Deck — SWOT Analysis",
-        src: "./assets/aistudio/3_202ebd29.png",
+        src: "./assets/aistudio/3_202ebd29.webp",
         caption: "Strategic SWOT assessing Maruti Suzuki's distribution scale and production efficiency against domestic dependence, scarce EV offerings, tech partnerships, and raw-material/supply-chain threats."
       },
       {
         title: "Round 2 Deck — EV Launch Timing Roadmap (2023–2025)",
-        src: "./assets/aistudio/4_9f9bc28d.png",
+        src: "./assets/aistudio/4_9f9bc28d.webp",
         caption: "Chronological macro-trigger roadmap balancing Tata's first-mover lead and near-term cyclical risks against FAME-2 infrastructure expansion, Pan-India charging buildout, and ICT penetration toward a 2025 launch."
       },
       {
         title: "Round 3 Deck — Consumer & Psychographic Segmentation",
-        src: "./assets/aistudio/5_6945edd4.png",
+        src: "./assets/aistudio/5_6945edd4.webp",
         caption: "Dual-axis buyer framework segmenting consumers across practical value drivers (fuel efficiency, affordability, sporty styling for singles) and family/status/adventure interior and ruggedness priorities."
       },
       {
         title: "Round 3 Deck — Price-Tier Targeting (Mid-Range Focus)",
-        src: "./assets/aistudio/6_d4af7f9c.png",
+        src: "./assets/aistudio/6_d4af7f9c.webp",
         caption: "Three-tier segmentation (Economy, Mid-Range, Premium) isolating Mid-Range hatchbacks and sedans for feature-conscious, first-time car buyers as the ideal EV entry sweet spot."
       },
       {
         title: "Round 3 Deck — Launchpad State Selection & Channel Placement",
-        src: "./assets/aistudio/7_a7c0e5d1.png",
+        src: "./assets/aistudio/7_a7c0e5d1.webp",
         caption: "State-by-state infrastructure comparison selecting Karnataka (774 stations; 220.7 EVs/station) and Delhi (539 stations; 365.5 EVs/station) as launchpads across Nexa, True Value, Dealers, and Service Centres."
       },
       {
         title: "Round 3 Deck — Competitors' Positioning Matrix",
-        src: "./assets/aistudio/8_85c417fb.png",
+        src: "./assets/aistudio/8_85c417fb.webp",
         caption: "2x2 competitive map plotting SUV vs. Sedan and Low-Price vs. High-Price offerings across Tata Nexon EV (₹14L), Tata Tigor EV (₹12L), Mahindra eVerito (₹9L), MG ZS EV (₹21L), and Hyundai Kona Electric (₹24L)."
       },
       {
         title: "Round 3 Deck — 'Maruti Suzuki eBharat' Repositioning Campaign",
-        src: "./assets/aistudio/9_82887cb7.png",
+        src: "./assets/aistudio/9_82887cb7.webp",
         caption: "Go-to-market positioning targeting first-time EV buyers in the ₹9–15L hatchback/MUV bracket through social awareness, test-drive activation, and the #eBharatRoadTrip experiential campaign."
       },
       {
         title: "Round 3 Deck — Strategic Execution Levers",
-        src: "./assets/aistudio/10_74dd5c51.png",
+        src: "./assets/aistudio/10_74dd5c51.webp",
         caption: "Six-pillar capability roadmap spanning ICE-to-EV retrofitting, home charging installations, tool harmonization via carryover parts, recycled materials, Aloe E-Cell natural batteries, and EV SaaS monetization."
       },
       {
         title: "Round 3 Deck — Risk & Mitigation Matrix",
-        src: "./assets/aistudio/11_3d622c9e.png",
+        src: "./assets/aistudio/11_3d622c9e.webp",
         caption: "Four-quadrant risk mitigation plan pairing charging gaps, EV software talent shortages, vehicle depreciation, and low ICT awareness with FAME-II partnerships, selective outsourcing, retrofitting/trade-ins, and NGO/govt outreach."
       }
     ]
@@ -351,32 +351,32 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     images: [
       {
         title: "Pitch Deck — The Problem",
-        src: "./assets/aistudio/1_225faed3.png",
+        src: "./assets/aistudio/1_225faed3.webp",
         caption: "Market friction on both sides: students trapped in theoretical coursework without verified project feedback, while startups rely on personal references for 75%+ of hires."
       },
       {
         title: "Pitch Deck — Customer Discovery Survey",
-        src: "./assets/aistudio/2_8fe9a409.png",
+        src: "./assets/aistudio/2_8fe9a409.webp",
         caption: "Primary research across 53 students showing 79.2% willing to complete industry projects, 60.4% targeting large firms vs. 39.6% startups, and 79.2% combined interest in VR training."
       },
       {
         title: "Pitch Deck — Product Architecture & Swipe Mode",
-        src: "./assets/aistudio/3_685b768c.png",
+        src: "./assets/aistudio/3_685b768c.webp",
         caption: "Two-sided verified talent loop pairing student Geek Bucks and SME-reviewed deliverables (LORs/PPOs) with a mobile Swipe Mode screening workflow for startup founders."
       },
       {
         title: "Pitch Deck — Business Model & Monetization",
-        src: "./assets/aistudio/4_5ca4d591.png",
+        src: "./assets/aistudio/4_5ca4d591.webp",
         caption: "Tiered startup subscriptions (Ruby free, Emerald paid, Sapphire premium) combined with 2%–5% marketplace fees, 7-day MVP builds, validation reports, and XR/VR licensing."
       },
       {
         title: "Pitch Deck — Competitive Landscape",
-        src: "./assets/aistudio/5_9823dd1d.png",
+        src: "./assets/aistudio/5_9823dd1d.webp",
         caption: "Positioning matrix benchmarked against ~30 platforms across job portals (Internshala, LinkedIn), project courses (Guvi, Crio.Do), and XR/VR training providers."
       },
       {
         title: "Pitch Deck — Traction & Go-to-Market",
-        src: "./assets/aistudio/6_5c5e7b17.png",
+        src: "./assets/aistudio/6_5c5e7b17.webp",
         caption: "Early execution funnel showing 21 startups contacted, 13 converted to meetings, ₹23,000 early revenue, and the 5-stage candidate-to-offer workflow."
       }
     ]
@@ -410,32 +410,32 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     images: [
       {
         title: "Round 2 Slide 1 — Executive Summary: 4 Compounding Root Causes",
-        src: "./assets/aistudio/1_f06f8753.png",
+        src: "./assets/aistudio/1_f06f8753.webp",
         caption: "Executive synthesis tracing HF stagnation (~6.7% CAGR vs ~40% overall) to 100% raw-material imports, 37–64% volatile utilization, $0 pricing flexibility, and 60% South-India concentration."
       },
       {
         title: "Round 2 Slide 2 — Market Diagnostic (Blueprint 1)",
-        src: "./assets/aistudio/2_10ba5f4d.png",
+        src: "./assets/aistudio/2_10ba5f4d.webp",
         caption: "Market growth divergence (~40% total vs ~6.7% HF CAGR), 5–6% Indian market share breakdown, and supply, category-mix, and regional growth tradeoffs."
       },
       {
         title: "Round 2 Slide 3 — Company Diagnostic (Blueprint 2)",
-        src: "./assets/aistudio/3_a37c2593.png",
+        src: "./assets/aistudio/3_a37c2593.webp",
         caption: "Unit cost and margin decomposition across the 20,000 MT plant, showing FY20–FY23E capacity swings and $38,900 cost-per-case vs competitors ($25k–$30k)."
       },
       {
         title: "Round 2 Slide 4 — Competitive & Regional Benchmarking",
-        src: "./assets/aistudio/4_5ea6daf9.png",
+        src: "./assets/aistudio/4_5ea6daf9.webp",
         caption: "Regional sales mix (60% South India), new-customer acquisition gap (10% vs peers' 50–80%), and sales-per-unit-volume comparisons."
       },
       {
         title: "Round 2 Slide 5 — Strategic Recommendations & Tradeoffs",
-        src: "./assets/aistudio/5_592bfc4c.png",
+        src: "./assets/aistudio/5_592bfc4c.webp",
         caption: "Five prioritized action levers—South Africa sourcing, secondary category mix, West/East expansion, 90% utilization target, and brand acquisition—with PRO/CON analysis."
       },
       {
         title: "Round 2 Slide 6 — Appendix: Cost per Case & Little's Law Utilization Math",
-        src: "./assets/aistudio/6_5cb554fd.png",
+        src: "./assets/aistudio/6_5cb554fd.webp",
         caption: "Worked unit-cost derivation ($38,900/case across 69 cases) and queuing utilization model scaling U from 64% to 90% (service time S: 3.41 → 4.8 mins)."
       }
     ]
@@ -554,12 +554,12 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     images: [
       {
         title: "Excel Model — 3-Step DuPont ROE Decomposition (FY2012–FY2022)",
-        src: "./assets/aistudio/1_95604677.png",
+        src: "./assets/aistudio/1_95604677.webp",
         caption: "11-year DuPont matrix (Net Profit Margin × Total Asset Turnover × Equity Multiplier) reconciling identically with direct ROE calculation (0.0000% variance) alongside ROE and margin trend charts."
       },
       {
         title: "Excel Model — 2-Year Forward Forecast (FY2023E–FY2024E)",
-        src: "./assets/aistudio/2_8aa64362.png",
+        src: "./assets/aistudio/2_8aa64362.webp",
         caption: "Dynamic assumption-driven projection (6.38% 5-Yr revenue CAGR, 20.55% avg net profit margin, 35% payout ratio) forecasting Revenue (₹7,945.58 Cr), PAT (₹1,632.63 Cr), and ROE (19.55% / 18.45%)."
       }
     ]
