@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# Dedicated AI and Search Engine Crawlers
+# Dedicated Search Engine Crawlers
 User-agent: Googlebot
 Allow: /
 

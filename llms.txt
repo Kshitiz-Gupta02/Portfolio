@@ -1,120 +1,92 @@
-# Kshitiz Gupta — Strategy, Operations & Quantitative Analytics
+# Kshitiz Gupta: Operations, Analytics & Strategy Portfolio
 
-> Quantitative strategist, operations architect, and startup co-founder specializing in mathematical problem-solving, incentive design, and zero-to-one operational execution.
+> Operations and analytics professional with hands-on experience in requirements documentation, process mapping and workflow automation.
 
 ## Profile Overview
-- **Name**: Kshitiz Gupta
-- **Location**: Delhi NCR, India
-- **Email**: kshitiz.gupta333@gmail.com
-- **Phone**: +91 8800236727
-- **Portfolio**: https://kshitiz-gupta02.github.io/Portfolio/
-- **Target Roles**: Project & Operations Manager, Product Manager / Associate Product Manager (APM), Business Analyst, Business Intelligence (BI) Analyst, Business Operations (BizOps)
-- **Education**: B.Tech, Shiv Nadar University (Greater Noida, India)
+- Name: Kshitiz Gupta
+- Email: kshitiz.gupta333@gmail.com
+- Portfolio: https://kshitiz-gupta02.github.io/Portfolio/
+- Target Roles: Business Analyst, Operations Manager, Product Manager, Business Intelligence Analyst
+- Education: B.Tech in Electronics and Communication, Minor in Management Studies, Shiv Nadar University
 
 ---
 
-## Core Competencies & Tool Stack
-- **Quantitative Modeling**: DuPont Financial ROE Decomposition, Queuing Theory (Little's Law, M/M/1), Graph Theory (Dijkstra's Shortest Path Algorithm), Bipartite Matching, Critical Path Method (CPM), Time-and-Motion Studies, Incentive & Scoring Formula Design.
-- **Analytical & BI Tools**: Advanced Excel (VLOOKUP, INDEX/MATCH, Pivot Tables, Scenario Modeling), Power BI (Data Modeling, DAX, Interactive Executive Dashboards), Google Sheets, Python (NetworkX, Pandas, NumPy), SQL (Relational queries, window functions).
-- **Product & Design**: Figma (UI/UX Wireframing, User Flow Architecture), Notion (PRDs, Agile Sprint Backlogs, Knowledge Hubs), Jira, Loom, Slack.
-- **Strategic Frameworks**: MECE Issue Trees, Hypotheses-Driven Problem Solving, Value Driver Trees, State EV Launchpad Density Scoring, B2B Outbound Conversion Optimization.
+## Core Skills & Tools
+- Business Analysis: Requirement Gathering, BRD, User Stories & Acceptance Criteria, UAT, As-Is / To-Be Process Mapping, ERD, Defect Logging
+- Tools: Excel (XLOOKUP, VLOOKUP, Pivot Tables), Power BI (Power Query, DAX), PostgreSQL, DBeaver, JIRA, Confluence, Power Automate, Microsoft Copilot, MS Visio, draw.io, Figma, Notion
+- Methods: Critical Path Method (CPM), Time and Motion Study, Graph Theory
 
 ---
 
-## Key Achievements & Milestones
-- **Maruti Suzuki XCELerate National Semi-Finalist**: Ranked in the Top 1.5% out of 51,866 Indian B-School candidates (Top 10 B-School Tier).
-- **Bain Capability Network (BrAINWARS)**: Cleared Round 1 of 3 in national corporate strategy competition analyzing FluorCo's chemical manufacturing cost structure.
-- **V3 Balanced KPI Scoring Engine**: Designed and iterated performance algorithm adopted by 200+ employees across 5 departments at Growth Central VC; achieved +60% output gain, -40% absenteeism, and quadrupled retention from 10% to 40%.
-- **EdTech Live Product Line**: Recruited 4 domain leaders and personally taught an 8-week Product Management live course driving ₹3,00,000 Q1 revenue with an 85% completion rate.
-- **Atal Incubation Centre (AIC SNU) Startup**: Co-founded Daikoku, achieved 62% B2B client conversion (13 meetings from 21 outreach calls) and early revenues.
-- **Operations Research Publications**: Formulated Dijkstra-based emergency EMS dispatch model saving 10% in golden hour transit times; conducted wholesale floor time-motion study cutting customer turnaround from 20 to 12 minutes (-38%).
+## Key Career Metrics
+- 20 to 200+: Scaled organisation from 20 to 200+ people across 5 functional departments at Growth Central VC through designed systems
+- Top 10: B-School Track Semi-Finalist, Maruti Suzuki XCELerate (Top 20 overall, 10 per track), from 51,866 registrations
+- Rs 3,00,000: First-quarter revenue across new product line (Rs 2,50,000 from 4 expert-led courses plus Rs 50,000 from PM course across 3 cohorts of 10 mentees)
+- 20 to 12-13 min: Customer Interaction Time reduced at Gyasi Ram and Sons while increasing basket size from 2-3 to 4-5 products
+- 100%: Regulatory compliance ensured during AML process transition at Genpact, with 4% reduction in case documentation time
 
 ---
 
-## The 10 Featured Case Studies
+## Case Studies (10 Detailed Projects)
 
-### 1. KPI Systems Overhaul (Growth Central VC)
-- **Category**: Operations & Product Architecture
-- **Problem**: V1 tracked raw counts (superficial speed); V2 ratio model triggered candidate hoarding and refusal to source.
-- **Formula**: `Score = 5A + 2B − 6C + 10D − 4E` where A = Job Ads, B = Applicants Sourced, C = Shortlists Made, D = Passed Interview, E = Unselected Candidates (C - D).
-- **Impact**: Adopted across 5 departments (200+ people); +60% productivity, -40% absenteeism, retention up from 10% to 40%.
-- **Tools**: Excel, Power BI, Google Sheets, KPI Dashboards.
+### 1. KPI Scoring Engine (Growth Central VC)
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/kpi-scoring-engine.html
+- Category: Operations & Business Analysis
+- Focus: Designed a weekly balanced KPI scoring model over 3 iterations (V1 for the departments I oversaw, V2 and V3 for the HR teams only: 3 HR teams, 12 groups, 60 recruiters). Timeline: V1 built August 2021, V2 built March 2022, V3 started June 2022 and live August 2022. Wrote the BRD and 13 user stories, mapped ERDs, ran 22 UAT test cases traced to stories, and built a PostgreSQL to Power BI pipeline tracked in JIRA.
+- Formula: Score = 5A + 2B - 6C + 10D - 4E (A = Ads Posted, B = Sourced, C = Shortlists Created, D = Interviews Passed, E = Unselected Candidates C - D).
+- Tools: Excel, Power BI, PostgreSQL, DBeaver, JIRA, draw.io
 
-### 2. Product Management Course Design & Delivery (Growth Central VC)
-- **Category**: Operations & Product Management
-- **Problem**: Need to diversify from commodity skill certificates into high-retention, high-ticket live cohorts.
-- **Approach**: Recruited 4 domain experts (Finance, Marketing, CS, Cybersecurity) while building and personally instructing an 8-week live PM cohort with 6-week management simulation.
-- **Impact**: ₹3,00,000 in Q1 revenue; 85% completion rate; scaled from 60 to 100+ students.
-- **Tools**: Figma, Notion, Google Workspace, Loom, Slack.
+### 2. Maruti Suzuki XCELerate: EV Market Entry Strategy
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/maruti-suzuki-xcelerate.html
+- Category: Strategy & Consulting
+- Achievement: Semi-Finalist (Top 20 overall, 10 per track), from 51,866 registrations nationwide (roughly 16,000 to 25,000 teams).
+- Focus: Formulated an electric passenger vehicle market entry strategy for Maruti Suzuki. Recommended launch in Delhi and Karnataka backed by charging-station density data, targeted the mid-range "ideal customer" (first-time car buyers seeking feature-rich, comfortable vehicles), and developed the "Maruti Suzuki eBharat" go-to-market concept (#eBharatRoadTrip) on affordability and low running cost.
+- Tools: Market Sizing, Competitive Positioning, Go-to-Market Strategy
 
-### 3. Maruti Suzuki XCELerate — EV Infrastructure & Strategy
-- **Category**: Strategy & Market Entry
-- **Problem**: Formulate 2025–2030 India EV rollout strategy addressing charging infrastructure gaps and buyer price sensitivity.
-- **Approach**: Evaluated state charging densities (Karnataka 220.7 vs UP 1,107.9 EVs/charger). Placed Maruti's "eBharat" vehicle in the ₹9–15 Lakh mid-range utility sweet spot.
-- **Impact**: National Semi-Finalist (Top 1.5% of 51,866 candidates); Top 10 B-School Tier.
-- **Tools**: Power BI, Excel, Market Segmentation Models, Geospatial Mapping.
+### 3. New Product Line Launch: Expert-Led Courses & PM Program (Growth Central VC)
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/pm-course-launch.html
+- Category: Product & Incubation
+- Outcome: Generated Rs 3,00,000 in first-quarter revenue across the new product line: Rs 2,50,000 from 4 expert-led courses plus Rs 50,000 from the PM program. A new PM cohort started every month from January; each cohort ran 8 weeks with 10 mentees. Personally ran 3 cohorts (30 mentees) before handing it off.
+- Tools: Curriculum Design, Cohort Mentorship, Operations Management, Figma, Notion
 
-### 4. Daikoku — Atal Incubation Centre (AIC SNU)
-- **Category**: Zero-to-One Founder & Operations
-- **Problem**: High friction and trust deficits in early-stage student & junior talent hiring.
-- **Approach**: Built two-sided talent marketplace with a "Swipe Mode" verified evaluation workflow. Ran founder-led B2B outbound campaign across 21 early-stage startups.
-- **Impact**: 62% meeting conversion rate (13 meetings); ₹23,000 early revenue; secured incubation at AIC SNU.
-- **Tools**: Figma, Notion, Cold Outreach CRM, Google Workspace.
+### 4. Store Operations & Time-Motion Study (Gyasi Ram and Sons)
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/store-operations-forecasting.html
+- Category: Operations & Business Analysis
+- Outcome: Managed store and warehouse operations for a 15-person team (stock checks, replenishment from 6 vendors, packing compliance), cutting customer interaction time from 20 to 12-13 minutes and raising basket size from 2-3 to 4-5 products through structured product education. Built a station line and seasonal forecasting model in Excel as a working prototype.
+- Tools: Excel, Time-and-Motion Study
 
-### 5. Bain Capability Network (BrAINWARS) — FluorCo Turnaround
-- **Category**: Strategy Consulting & Diagnostics
-- **Problem**: FluorCo faced falling gross margins and unit cost penalties on fluorspar imports.
-- **Approach**: MECE diagnostic identifying Vietnam/Canada supply penalty ($38.9k/case vs $25k-$30k benchmark) and plant underutilization (37%–64%). Applied M/M/1 queuing model proving 90% utilization target cuts cost penalty.
-- **Impact**: Cleared Round 1 of 3 in national competition.
-- **Tools**: Excel, Queuing Theory, MECE Issue Trees, Financial Decomposition.
+### 5. FluorCo: Hydrofluoric Acid Strategy Diagnostic (Bain BrAINWARS)
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/fluorco-turnaround.html
+- Category: Strategy & Consulting
+- Achievement: Team Member in a 4-person team. Cleared Round 1 of 3 (MCQ assessment plus issue-tree submission), submitted Round 2 entry, and was not selected for Round 3. Diagnosed stagnation of hydrofluoric acid business at roughly 50-year-old manufacturer (40% company CAGR, but HF only one-third of sales) across 4 root causes: 100% import-dependent raw material (fluorspar supply disruption), volatile capacity utilization (37% to 64%), $0 pricing flexibility, and South India concentration (60% of sales). Includes worked utilization calculation from Round 2 appendix (throughput X = 11.25 items/hour, total time t = 1,600 hours, FY22: U = 64%, B = 38.4 mins, S = 3.41 mins).
+- Tools: MECE issue trees, financial and utilization calculations
 
-### 6. Retail Inventory & Time-Motion Study (Gyasi Ram & Sons)
-- **Category**: Operations Research & Lean
-- **Problem**: Bottlenecks in high-volume B2B/B2C grain wholesale with customer queues averaging 20 minutes.
-- **Approach**: Conducted 3-phase time-and-motion study across billing, dispatch, and physical staging. Re-engineered dual-counter order intake and reorder-point inventory buffers.
-- **Impact**: Slashed floor turnaround from 20 to 12 minutes (-38%); eliminated stockouts.
-- **Tools**: Excel, Process Flow Diagrams, Time-and-Motion Observation Sheets.
+### 6. Godrej Consumer Products: 11-Year DuPont ROE Analysis
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/dupont-analysis-godrej.html
+- Category: Strategy & Consulting
+- Focus: Deconstructed 11 years of standalone financial reports (FY12 to FY22) using a 3-step DuPont decomposition model. ROE ranged between roughly 18.5% and 23.9% in every year except FY2019 (35.6%, one-off tax year); Total Asset Turnover declined from 0.85x to 0.79x while Fixed Asset Turnover improved from 2.55x to 4.78x.
+- Tools: DuPont Ratio Modeling
 
-### 7. DuPont Financial Analysis (Godrej Consumer Products)
-- **Category**: Financial Modeling & Equity Analysis
-- **Problem**: Unpack 11-year shareholder returns and identify true structural growth drivers for GCPL (FY2012–FY2022).
-- **Approach**: 3-stage DuPont decomposition: `ROE = Net Margin × Asset Turnover × Equity Multiplier`. Dissected FY19 ROE surge (35.6%) due to deferred tax credit, and proved sustained organic performance at 0.00x Debt-to-Equity.
-- **Impact**: Delivered comprehensive 11-year financial model explaining organic margin expansion vs financial leverage.
-- **Tools**: Advanced Excel, Financial Statement Decomposition, Ratio Analysis, Power BI.
+### 7. Ambulance Routing Network via Graph Theory
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/ambulance-routing.html
+- Category: Operations & Business Analysis
+- Focus: Course project for DOM208 Operations Research at Shiv Nadar University (2022). Formulated a sample road network with a single hospital base as a directed graph. Applied Dijkstra shortest-path algorithm and bipartite matching to reduce sample round-trip transit time by 10% in a simulated sample (one sample case, patient P2).
+- Tools: Graph Theory, Dijkstra Routing, Bipartite Matching
 
-### 8. Dynamic Hospital Ambulance Routing & Dispatch
-- **Category**: Operations Research & Optimization
-- **Problem**: Peak-hour urban congestion causing critical delays during emergency EMS transport.
-- **Approach**: Modeled urban traffic as a directed graph. Implemented Dijkstra's shortest-path algorithm combined with bipartite triage matching.
-- **Impact**: Reduced round-trip emergency transit time by 2 minutes (-10%), critical for the golden hour survival window.
-- **Tools**: Python, NetworkX, Graph Theory, SQL, Geolocation Data.
+### 8. Daikoku: Student Builder Marketplace
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/daikoku-marketplace.html
+- Category: Product & Incubation
+- Focus: Co-Founder, Operations, Strategy & Marketing Lead across 4 co-founders (Ops and Strategy, Web Dev, XR/Unity, Ops and Marketing). Co-founder from June 2022 to December 2022. Incubated at SNU Atal Incubation Centre from August 2022. Customer discovery with 21 startups (13 meetings scheduled, 62% conversion rate). Validated demand through 53-student survey: 79.2% were willing to do projects. 60.4% preferred big companies over startups (39.6% startups). About 79% were excited about VR training (50.9% very excited, 28.3% excited). Early revenue of Rs 23,000 from a website-development engagement for one of our outreach targets. This figure is directional, as the books were not formally closed after the team's exit. Platform architecture: a student portal (Google and GitHub sign-in, project listings, embedded workspace, gamified rewards), Swipe Mode (hiring interface where startup HRs filter and message pre-evaluated candidates, backed by SME project ratings and employer verification), and a tiered SaaS toolkit for startups.
+- Tools: B2B Outbound
 
-### 9. Pan-India Campus Recruitment Drive (Growth Central VC)
-- **Category**: People Operations & Talent Sourcing
-- **Problem**: Scale junior analyst and operations intern capacity rapidly without sacrificing quality.
-- **Approach**: Standardized 3-stage assessment rubrics and negotiated college partnerships across 6 premier campuses (DTU, IIM Rohtak, KMC, etc.).
-- **Impact**: Screened 100+ candidates, interviewed 30+, onboarded 12 high-performing interns, with 4 converted to permanent roles (33% conversion).
-- **Tools**: Google Workspace, ATS Funnels, Rubric Evaluation Sheets, Excel.
+### 9. Campus Recruitment & Structured Interview Pipeline (Growth Central VC)
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/campus-recruitment.html
+- Category: Operations & Business Analysis
+- Focus: Onboarded 15 interns across Management, Sales, Marketing, and HR functions, with 5 converting to part-time roles (33% conversion rate). Partnered with placement cells at 5 institutions (LPU, KMC, DDUC, DTU E-Cell and A₹thaShastra, the economics club of IIM Rohtak), running drives with rotating HR trainees and timing the funnel from March to August 2022.
+- Tools: Interview criteria design, Campus partnerships, Funnel management
 
-### 10. Competitor Intelligence & Market Landscape (Growth Central VC)
-- **Category**: Strategy & Market Research
-- **Problem**: Executive leadership required granular competitive intelligence across the Indian skill assessment ecosystem under a strict deadline.
-- **Approach**: Deployed Critical Path Method (CPM) to manage a 7-intern research pod, dividing taxonomy, scraping, pricing, and feature scoring.
-- **Impact**: Benchmarked 214 competitor platforms across 12 parameters; delivered in 3 weeks (50% faster than 6-week target).
-- **Tools**: Notion, Google Sheets, CPM Scheduling, Secondary Research Frameworks.
-
----
-
-## Links & Online Presence
-- **Interactive Portfolio**: https://kshitiz-gupta02.github.io/Portfolio/
-- **Deep Links**:
-  - https://kshitiz-gupta02.github.io/Portfolio/#kpi-systems
-  - https://kshitiz-gupta02.github.io/Portfolio/#pm-course
-  - https://kshitiz-gupta02.github.io/Portfolio/#xcelerate
-  - https://kshitiz-gupta02.github.io/Portfolio/#daikoku
-  - https://kshitiz-gupta02.github.io/Portfolio/#fluorco
-  - https://kshitiz-gupta02.github.io/Portfolio/#time-motion-study
-  - https://kshitiz-gupta02.github.io/Portfolio/#godrej
-  - https://kshitiz-gupta02.github.io/Portfolio/#ambulance-routing
-  - https://kshitiz-gupta02.github.io/Portfolio/#campus-recruitment
-  - https://kshitiz-gupta02.github.io/Portfolio/#market-research
+### 10. Competitor Intelligence: 200+ Competitors Mapped (Growth Central VC)
+- URL: https://kshitiz-gupta02.github.io/Portfolio/projects/market-intelligence.html
+- Category: Product & Incubation
+- Focus: Led a 7-person research team to map 200+ competitors across course learning and skill assessment & certification in a 3-week sprint using the Critical Path Method (CPM). Researched 3 core questions (demand size, price sensitivity, competitive gaps) combining secondary research with surveys of 30+ existing customers. Benchmarked 5 key platforms (Coursera, Udemy, edX, LinkedIn Learning, Skillshare) on price, quality, and distribution; finding that few major competitors combined low price with high perceived credibility directly drove the launch of course learning.
+- Tools: Critical Path Method, competitor comparison framework
