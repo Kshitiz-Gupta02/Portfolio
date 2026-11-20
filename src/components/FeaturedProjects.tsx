@@ -1,19 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  ArrowUpRight, 
-  FileText, 
-  Layers, 
-  ExternalLink, 
-  CheckCircle2, 
-  TrendingUp, 
-  Cpu, 
-  BarChart3, 
-  Compass, 
-  Users, 
-  Search, 
-  Navigation,
-  DollarSign
-} from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { FEATURED_PROJECTS, ProjectDetail } from '../data/portfolioData';
 import { CaseStudyDetailModal } from './CaseStudyDetailModal';
 

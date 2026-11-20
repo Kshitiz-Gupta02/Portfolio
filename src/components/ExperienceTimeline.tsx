@@ -1,6 +1,6 @@
 import React from 'react';
 import { EXPERIENCE_HISTORY } from '../data/portfolioData';
-import { Briefcase, Calendar, MapPin, CheckCircle2, ChevronRight } from 'lucide-react';
+import { Calendar, MapPin } from 'lucide-react';
 
 export const ExperienceTimeline: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, FileText, ArrowUpRight, Copy, Check } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, FileText, ArrowUpRight, Copy, Check } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 
 interface ContactSectionProps {
@@ -154,9 +154,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenResume }) 
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
             <a href="#about" className="hover:text-slate-400 transition-colors">About</a>
             <span aria-hidden="true">·</span>
-            <a href="#interactive-lab" className="hover:text-slate-400 transition-colors">Interactive Lab</a>
-            <span aria-hidden="true">·</span>
-            <a href="#case-studies" className="hover:text-slate-400 transition-colors">Case Studies</a>
+            <a href="#projects" className="hover:text-slate-400 transition-colors">Case Studies</a>
             <span aria-hidden="true">·</span>
             <a href={PERSONAL_INFO.githubPagesUrl} target="_blank" rel="noopener noreferrer" className="hover:text-slate-400 transition-colors">GitHub Pages ↗</a>
           </div>
