@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KPI Scoring Engine: Three Iterations | Kshitiz Gupta</title>
+    <meta name="description" content="Design and 3-generation iteration of a balanced KPI scoring engine: V1 for the departments I oversaw, V2 and V3 for the HR teams only (3 HR teams, 12 groups, 60 recruiters) at Growth Central VC." />
+    <link rel="canonical" href="https://kshitiz-gupta02.github.io/Portfolio/projects/kpi-scoring-engine.html" />
+
+    <!-- Instant Theme Loader -->
+    <script>
+      (function() {
+        var savedTheme = localStorage.getItem('kg-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      })();
+    </script>
+
+    <!-- Open Graph & Twitter -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://kshitiz-gupta02.github.io/Portfolio/projects/kpi-scoring-engine.html" />
+    <meta property="og:title" content="KPI Scoring Engine: Three Iterations | Kshitiz Gupta" />
+    <meta property="og:description" content="Designed a balanced multi-variable KPI scoring model: V1 for the departments I oversaw, V2 and V3 for the HR teams only (3 HR teams, 12 groups, 60 recruiters)." />
+    <meta property="og:image" content="https://kshitiz-gupta02.github.io/Portfolio/assets/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "KPI Scoring Engine: Three Iterations",
+        "description": "Design and 3-generation iteration of a balanced KPI scoring engine: V1 for the departments I oversaw, V2 and V3 for the HR teams only (3 HR teams, 12 groups, 60 recruiters) at Growth Central VC.",
+        "url": "https://kshitiz-gupta02.github.io/Portfolio/projects/kpi-scoring-engine.html",
+        "author": {
+          "@type": "Person",
+          "name": "Kshitiz Gupta",
+          "url": "https://kshitiz-gupta02.github.io/Portfolio/"
+        }
+      }
+    </script>
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <!-- Sticky Project Back Bar -->
+    <aside class="project-sticky-nav">
+      <div class="container" style="display:flex; justify-content:space-between; align-items:center;">
+        <a href="../index.html#projects" class="back-link">
+          <span aria-hidden="true">&larr;</span> Back to all projects
+        </a>
+        <button id="themeToggleBtn" class="theme-toggle-btn" type="button" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line></svg>
+        </button>
+      </div>
+    </aside>
+
+    <main class="container" style="padding-top: 40px; padding-bottom: 80px; max-width: 860px;">
+      <!-- Project Header -->
+      <header style="margin-bottom: 32px;">
+        <div style="display:flex; align-items:center; gap:12px; margin-bottom: 12px;">
+          <span class="card-tag">Growth Central VC</span>
+          <span class="card-metric-badge">13 user stories, 22 UAT tests</span>
+        </div>
+        <h1 style="font-size: 2.25rem; letter-spacing: -0.02em; margin-bottom: 16px;">
+          KPI Scoring Engine: Three Iterations
+        </h1>
+        <p style="font-size: 1.125rem; color: var(--text-secondary); line-height: 1.5;">
+          Designed a balanced multi-variable scoring model that aligned sourcing volume, shortlisting selectivity, and final hiring targets: V1 for the departments I oversaw, V2 and V3 for the HR teams only (3 HR teams, 12 groups, 60 recruiters).
+        </p>
+      </header>
+
+      <!-- 10-Second Executive Summary Block -->
+      <section class="case-summary-block" aria-label="Executive Summary">
+        <h2 style="font-size: 1rem; font-family: var(--font-mono); text-transform: uppercase; color: var(--accent-text); margin-bottom: 16px;">
+          Executive Summary
+        </h2>
+        <div class="summary-grid">
+          <div>
+            <div class="summary-item-label">The Problem</div>
+            <div class="summary-item-value">Primitive task counting incentivized low-effort volume over quality, creating misaligned incentives and team friction.</div>
+          </div>
+          <div>
+            <div class="summary-item-label">My Role</div>
+            <div class="summary-item-value">Core Team Member: authored BRD, 13 user stories, mapped ERDs, executed 22 UAT test cases, and built PostgreSQL to Power BI pipeline.</div>
+          </div>
+          <div>
+            <div class="summary-item-label">Core Tools</div>
+            <div class="summary-item-value">Excel, Power BI, PostgreSQL, DBeaver, JIRA, draw.io</div>
+          </div>
+          <div>
+            <div class="summary-item-label">Primary Outcome</div>
+            <div class="summary-item-value">V1 for the departments I oversaw, V2 and V3 for the HR teams only (3 HR teams, 12 groups, 60 recruiters).</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visual Section 1: Process Architecture & JIRA UAT Funnel -->
+      <section style="margin-bottom: 48px;">
+        <h2 style="font-size: 1.5rem; margin-bottom: 12px;">1. Business Analysis &amp; System Lifecycle</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 20px;">
+          Timeline: V1 built August 2021, V2 built March 2022, V3 started June 2022 and live August 2022.
+          The scoring model was documented through formal Business Requirements Documents (BRDs), 13 user stories, and Entity Relationship Diagrams (ERDs).
+          I structured 22 User Acceptance Testing (UAT) test cases tracked in JIRA to catch and fix edge case scoring defects before company-wide release.
+        </p>
+
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 24px; margin-bottom: 12px;">
+          <div class="mono" style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 12px;">DATA PIPELINE &amp; ACCEPTANCE FLOW</div>
+          <svg width="100%" height="80" viewBox="0 0 700 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Data Pipeline and Acceptance Flow">
+            <rect x="10" y="15" width="140" height="50" rx="6" fill="var(--bg-card)" stroke="var(--border-medium)" />
+            <text x="30" y="44" fill="var(--text-primary)" font-size="11" font-weight="600">BRD &amp; 13 Stories</text>
+            <path d="M155 40 H185" stroke="var(--accent-text)" stroke-width="2" marker-end="url(#arrow)" />
+            <rect x="190" y="15" width="140" height="50" rx="6" fill="var(--bg-card)" stroke="var(--border-medium)" />
+            <text x="210" y="44" fill="var(--text-primary)" font-size="11" font-weight="600">PostgreSQL Store</text>
+            <path d="M335 40 H365" stroke="var(--accent-text)" stroke-width="2" marker-end="url(#arrow)" />
+            <rect x="370" y="15" width="140" height="50" rx="6" fill="var(--bg-card)" stroke="var(--border-medium)" />
+            <text x="390" y="44" fill="var(--text-primary)" font-size="11" font-weight="600">22 UAT Test Cases</text>
+            <path d="M515 40 H545" stroke="var(--accent-text)" stroke-width="2" marker-end="url(#arrow)" />
+            <rect x="550" y="15" width="140" height="50" rx="6" fill="var(--accent-subtle)" stroke="var(--border-accent)" />
+            <text x="566" y="44" fill="var(--accent-text)" font-size="11" font-weight="700">Power BI Dashboard</text>
+            <defs>
+              <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent-text)" />
+              </marker>
+            </defs>
+          </svg>
+        </div>
+        <p style="font-size: 0.8125rem; color: var(--text-muted);" class="mono">
+          Figure 1: Automated data lifecycle connecting candidate logging directly to Power BI executive dashboards.
+        </p>
+      </section>
+
+      <!-- Visual Section 2: V3 Balanced Scoring Model Breakdown -->
+      <section style="margin-bottom: 48px;">
+        <h2 style="font-size: 1.5rem; margin-bottom: 12px;">2. The V3 Scoring Formula: Balancing Volume and Quality</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 20px;">
+          Designed over 3 iterations: V1 for the departments I oversaw, V2 and V3 for the HR teams only (3 HR teams, 12 groups, 60 recruiters), replacing a rigid volume-based system with a balanced, gamified model that aligned sourcing volume with hiring quality.
+        </p>
+
+        <!-- Formula Display Card -->
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 24px; margin-bottom: 20px;">
+          <div class="mono" style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 8px;">FINAL PRODUCTION FORMULA</div>
+          <div class="mono" style="font-size: 1.35rem; color: var(--accent-text); font-weight: 700; margin-bottom: 16px;">
+            Score = 5(A) + 2(B) - 6(C) + 10(D) - 4(E)
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; font-size: 0.8125rem;" class="mono">
+            <div style="background: var(--bg-card); padding: 10px; border-radius: 4px; border: 1px solid var(--border-subtle);">
+              <span style="color: var(--accent-text); font-weight: 700;">+5 pts:</span> Job Ads (A)
+            </div>
+            <div style="background: var(--bg-card); padding: 10px; border-radius: 4px; border: 1px solid var(--border-subtle);">
+              <span style="color: var(--accent-text); font-weight: 700;">+2 pts:</span> Sourced (B)
+            </div>
+            <div style="background: var(--bg-card); padding: 10px; border-radius: 4px; border: 1px solid var(--border-subtle);">
+              <span style="color: #ef4444; font-weight: 700;">-6 pts:</span> Shortlisted (C)
+            </div>
+            <div style="background: var(--bg-card); padding: 10px; border-radius: 4px; border: 1px solid var(--border-subtle);">
+              <span style="color: var(--accent-text); font-weight: 700;">+10 pts:</span> Interview (D)
+            </div>
+            <div style="background: var(--bg-card); padding: 10px; border-radius: 4px; border: 1px solid var(--border-subtle);">
+              <span style="color: #ef4444; font-weight: 700;">-4 pts:</span> Rejection (E)
+            </div>
+          </div>
+        </div>
+        <!-- Interactive V3 Formula Simulator Exhibit -->
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 24px; margin-top: 24px;">
+          <h3 style="font-size: 1.125rem; margin-bottom: 14px; font-family: var(--font-display);">Exhibit: Live V3 Formula Simulator (Sample numbers)</h3>
+          <p style="font-size: 0.8125rem; color: var(--text-secondary); margin-bottom: 16px;">
+            Test how different candidate pipeline numbers calculate recruiter performance scores in real time. E is calculated as C - D.
+          </p>
+
+          <form id="kpiSimForm" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 20px;">
+            <div>
+              <label for="valA" style="display:block; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px;" class="mono">Ads Posted (A):</label>
+              <input type="number" id="valA" value="4" min="0" style="width:100%; padding: 8px 10px; border-radius: 4px; background: var(--bg-card); border: 1px solid var(--border-medium); color: var(--text-primary); font-family: var(--font-mono); font-size: 0.9375rem;" />
+            </div>
+            <div>
+              <label for="valB" style="display:block; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px;" class="mono">Sourced (B):</label>
+              <input type="number" id="valB" value="30" min="0" style="width:100%; padding: 8px 10px; border-radius: 4px; background: var(--bg-card); border: 1px solid var(--border-medium); color: var(--text-primary); font-family: var(--font-mono); font-size: 0.9375rem;" />
+            </div>
+            <div>
+              <label for="valC" style="display:block; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px;" class="mono">Shortlisted (C):</label>
+              <input type="number" id="valC" value="10" min="0" style="width:100%; padding: 8px 10px; border-radius: 4px; background: var(--bg-card); border: 1px solid var(--border-medium); color: var(--text-primary); font-family: var(--font-mono); font-size: 0.9375rem;" />
+            </div>
+            <div>
+              <label for="valD" style="display:block; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px;" class="mono">Interviews Passed (D):</label>
+              <input type="number" id="valD" value="4" min="0" style="width:100%; padding: 8px 10px; border-radius: 4px; background: var(--bg-card); border: 1px solid var(--border-medium); color: var(--text-primary); font-family: var(--font-mono); font-size: 0.9375rem;" />
+            </div>
+          </form>
+
+          <!-- Computed Outcome Display -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-accent); border-radius: 6px; padding: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">CALCULATED E (UNSELECTED: C - D)</div>
+              <div class="mono" id="displayE" style="font-size: 1.25rem; font-weight: 700; color: #ef4444;" aria-live="polite">6 unselected</div>
+            </div>
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">CALCULATED TOTAL SCORE</div>
+              <div class="mono" id="displayScore" style="font-size: 1.75rem; font-weight: 700; color: var(--accent-text);" aria-live="polite">36 pts</div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          function updateKpiSimulator() {
+            var a = parseInt(document.getElementById('valA').value, 10) || 0;
+            var b = parseInt(document.getElementById('valB').value, 10) || 0;
+            var c = parseInt(document.getElementById('valC').value, 10) || 0;
+            var d = parseInt(document.getElementById('valD').value, 10) || 0;
+            // E = Unselected shortlisted candidates (C - D)
+            var e = c - d;
+            var score = (5 * a) + (2 * b) - (6 * c) + (10 * d) - (4 * e);
+            document.getElementById('displayE').textContent = e + ' unselected';
+            document.getElementById('displayScore').textContent = score + ' pts';
+          }
+          ['valA', 'valB', 'valC', 'valD'].forEach(function(id) {
+            var el = document.getElementById(id);
+            if (el) el.addEventListener('input', updateKpiSimulator);
+          });
+        </script>
+      </section>
+
+      <!-- Technical Deep Dive Accordion -->
+      <section style="margin-bottom: 56px;">
+        <details style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 18px 24px; cursor: pointer;">
+          <summary style="font-family: var(--font-mono); font-size: 0.875rem; font-weight: 600; color: var(--text-primary);">
+            Deep Dive: 22 UAT Test Cases &amp; Defect Tracking (Click to expand)
+          </summary>
+          <div style="padding-top: 16px; border-top: 1px solid var(--border-subtle); margin-top: 14px; font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6;">
+            <p>
+              The scoring pipeline was tested across 22 UAT test cases mapped directly to the 13 user stories in JIRA.
+            </p>
+            <p style="margin-top: 8px;">
+              Test cases verified data integrity across the PostgreSQL database and Power BI dashboards, resolving defects in pipeline logging before rollout to the HR teams (3 teams, 12 groups, 60 recruiters).
+            </p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Bottom Navigation -->
+      <footer style="display: flex; justify-content: space-between; align-items: center; padding-top: 24px; border-top: 1px solid var(--border-subtle);">
+        <a href="../index.html#projects" class="btn btn-secondary btn-sm">
+          <span aria-hidden="true">&larr;</span> Back to Case Studies
+        </a>
+        <a href="../resume.pdf" class="btn btn-primary btn-sm" download="Kshitiz_Gupta_Resume.pdf">
+          Download Resume (PDF)
+        </a>
+      </footer>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
