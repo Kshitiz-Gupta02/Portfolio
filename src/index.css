@@ -41,14 +41,6 @@
   --shadow-glow: 0 12px 30px -8px rgba(16, 185, 129, 0.28), 0 0 18px -4px rgba(20, 184, 166, 0.18);
 }
 
-.glow-emerald {
-  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.15);
-}
-
-.glow-teal {
-  box-shadow: 0 0 25px -5px rgba(20, 184, 166, 0.15);
-}
-
 /* Navbar diamond glyph spring rotation on hover */
 .brand-diamond {
   transform: rotate(45deg) scale(1);
